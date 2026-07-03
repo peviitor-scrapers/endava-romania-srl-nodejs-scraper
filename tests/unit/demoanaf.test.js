@@ -160,11 +160,14 @@ describe('src/anaf.js', () => {
     });
 
     it('should handle API-level error response', async () => {
+      const apiErr = {
+        ok: true,
+        json: async () => ({ success: false, error: { message: 'Company not found' } })
+      };
       mockFetch
-        .mockResolvedValue({
-          ok: true,
-          json: async () => ({ success: false, error: { message: 'Company not found' } })
-        })
+        .mockResolvedValueOnce(apiErr)
+        .mockResolvedValueOnce(apiErr)
+        .mockResolvedValueOnce(apiErr)
         .mockResolvedValue(cuifirmaSearchResponse([]));
 
       await expect(anaf.getCompanyFromANAF('00000000')).rejects.toThrow();

@@ -111,16 +111,20 @@ export async function searchCompany(brandName) {
     if (!res.ok) throw new Error(`cuifirma.ro search error: ${res.status}`);
     const json = await res.json();
     const results = json.results || [];
-    return results.map(r => ({
-      cui: parseInt(r.cui) || 0,
-      name: r.name || r.display_name || "",
-      statusLabel: r.status_label || "",
-      status: r.status || "",
-      address: r.location || "",
-      caenCode: r.primary_caen_display
-        ? r.primary_caen_display.split("—")[0]?.trim()
-        : null
-    }));
+    return results.map(r => {
+      const sl = (r.status_label || "").toLowerCase();
+      const statusLabel = sl === "activă" ? "Funcțiune" : (r.status_label || "");
+      return {
+        cui: parseInt(r.cui) || 0,
+        name: r.name || r.display_name || "",
+        statusLabel,
+        status: r.status || "",
+        address: r.location || "",
+        caenCode: r.primary_caen_display
+          ? r.primary_caen_display.split("—")[0]?.trim()
+          : null
+      };
+    });
   } catch (fbErr) {
     console.log(`cuifirma.ro search fallback also failed: ${fbErr.message}`);
     throw new Error(`ANAF search error: all sources failed for "${brandName}"`);
