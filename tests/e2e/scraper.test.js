@@ -22,14 +22,14 @@ beforeAll(() => {
   }
 });
 
-const TEST_CIF = '33159615';
-const TEST_BRAND = 'EPAM';
+const TEST_CIF = '' + companyConfig.cif + '';
+const TEST_BRAND = '' + companyConfig.brand + '';
 const EPAM_API_URL = 'https://careers.epam.com/api/jobs/v2/search/careers-i18n?from=0&lang=en&size=5&sortBy=relevance%3Brelocation%3Dasc&websiteLocale=en-us&facets=country%3D8150000000000001155';
 const ROMANIAN_CITIES = ['Bucharest', 'București', 'Cluj-Napoca', 'Timișoara', 'Iași', 'Brașov', 'Constanța', 'Sibiu', 'Oradea'];
 
 describe('E2E: Full Scraping Pipeline', () => {
 
-  describe('EPAM Careers API — Real Data Fetch', () => {
+  describe('' + companyConfig.brand + ' Careers API — Real Data Fetch', () => {
     let apiData;
 
     beforeAll(async () => {
@@ -42,7 +42,7 @@ describe('E2E: Full Scraping Pipeline', () => {
       apiData = await res.json();
     }, 15000);
 
-    it('should respond with valid job data from EPAM API', () => {
+    it('should respond with valid job data from ' + companyConfig.brand + ' API', () => {
       expect(apiData).toHaveProperty('data');
       expect(apiData.data).toHaveProperty('jobs');
       expect(Array.isArray(apiData.data.jobs)).toBe(true);
@@ -92,7 +92,7 @@ describe('E2E: Full Scraping Pipeline', () => {
       apiData = await res.json();
     }, 15000);
 
-    it('should parse real EPAM API response into standardized format', () => {
+    it('should parse real ' + companyConfig.brand + ' API response into standardized format', () => {
       const result = index.parseApiJobs(apiData);
 
       expect(result).toHaveProperty('jobs');
@@ -130,14 +130,14 @@ describe('E2E: Full Scraping Pipeline', () => {
 
       const payload = {
         source: 'epam.com',
-        company: 'EPAM SYSTEMS INTERNATIONAL SRL',
+        company: '' + companyConfig.legalName + '',
         cif: TEST_CIF,
         jobs
       };
 
       const transformed = index.transformJobsForSOLR(payload);
 
-      expect(transformed.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(transformed.company).toBe('' + companyConfig.legalName + '');
       expect(transformed.jobs.length).toBe(jobs.length);
 
       for (const job of transformed.jobs) {
@@ -170,7 +170,7 @@ describe('E2E: Full Scraping Pipeline', () => {
       company = await import('../../company.js');
     });
 
-    it('should find EPAM in ANAF and validate active status', async () => {
+    itIfAnaf('should find ' + companyConfig.brand + ' in ANAF and validate active status', async () => {
       const results = await anaf.searchCompany(TEST_BRAND);
 
       const epam = results.find(c =>
@@ -189,11 +189,11 @@ describe('E2E: Full Scraping Pipeline', () => {
       const result = await company.validateAndGetCompany();
 
       expect(result.status).toBe('active');
-      expect(result.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(result.company).toBe('' + companyConfig.legalName + '');
       expect(result.cif).toBe(TEST_CIF);
 
       if (result.existingJobsCount === 0) {
-        console.log('⚠️ No EPAM jobs in Solr — skipping job count assertion');
+        console.log('⚠️ No ' + companyConfig.brand + ' jobs in Solr — skipping job count assertion');
         return;
       }
       expect(result.existingJobsCount).toBeGreaterThan(0);
@@ -207,8 +207,8 @@ describe('E2E: Full Scraping Pipeline', () => {
       anaf = await import('../../src/anaf.js');
     });
 
-    it('should detect inactive/radiated companies via ANAF', async () => {
-      const results = await anaf.searchCompany('EPAM');
+    itIfAnaf('should detect inactive/radiated companies via ANAF', async () => {
+      const results = await anaf.searchCompany('' + companyConfig.brand + '');
 
       const nonActive = results.find(c => c.statusLabel !== 'Funcțiune');
 
@@ -233,26 +233,26 @@ describe('E2E: Full Scraping Pipeline', () => {
       solr = await import('../../solr.js');
     });
 
-    itIfSolr('should have EPAM jobs in SOLR with correct company name', async () => {
+    itIfSolr('should have ' + companyConfig.brand + ' jobs in SOLR with correct company name', async () => {
       const result = await solr.querySOLR(TEST_CIF);
 
       if (result.numFound === 0) {
-        console.log('⚠️ No EPAM jobs in Solr — skipping SOLR data verification');
+        console.log('⚠️ No ' + companyConfig.brand + ' jobs in Solr — skipping SOLR data verification');
         return;
       }
 
       for (const job of result.docs) {
-        expect(job.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+        expect(job.company).toBe('' + companyConfig.legalName + '');
         expect(job.cif).toBe(TEST_CIF);
       }
     }, 15000);
 
-    itIfSolr('should have EPAM company core entry with required fields', async () => {
+    itIfSolr('should have ' + companyConfig.brand + ' company core entry with required fields', async () => {
       const result = await solr.queryCompanySOLR(`id:${TEST_CIF}`);
 
       expect(result.numFound).toBe(1);
       const epam = result.docs[0];
-      expect(epam.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(epam.company).toBe('' + companyConfig.legalName + '');
       expect(epam.status).toBe('activ');
     }, 15000);
   });
