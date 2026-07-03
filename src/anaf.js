@@ -1,91 +1,66 @@
-/**
- * ANAF API Integration Module
- * 
- * PURPOSE: Provides interface to Romania's ANAF (National Agency for Fiscal Administration)
- * for company validation. Used to verify company existence, activity status, and get
- * official company details like registered name, address, and CIF.
- * 
- * NOTE: Uses demoanaf.ro which is a demonstration/mock API for development.
- * Production would use the actual ANAF API endpoints.
- * 
- * API Endpoints:
- * - Search: https://demoanaf.ro/api/search?q=<brand>
- * - Company Details: https://demoanaf.ro/api/company/<cif>
- */
-
 import fetch from "node-fetch";
 
-// ============================================================================
-// CONFIGURATION
-// ============================================================================
-
-// DemoANAF API base URL for company details
 const ANAF_API_URL = "https://demoanaf.ro/api/company/";
-
-// DemoANAF API base URL for company search
 const ANAF_SEARCH_URL = "https://demoanaf.ro/api/search";
-
-// Maximum retry attempts for API calls
+const CUI_FIRMA_API_URL = "https://cuifirma.ro/api/search";
 const MAX_RETRIES = 3;
-
-// Delay between retry attempts in milliseconds
 const RETRY_DELAY_MS = 2000;
 
-// ============================================================================
-// HELPER FUNCTIONS
-// ============================================================================
-
-/**
- * Promise-based sleep function for introducing delays
- * @param {number} ms - Milliseconds to sleep
- * @returns {Promise<void>}
- */
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// ============================================================================
-// ANAF API - Fetching company details by CIF
-// ============================================================================
+function normalizeCuifirmaResult(entry, cif) {
+  const caenCode = entry.primary_caen_display
+    ? entry.primary_caen_display.split("—")[0]?.trim()
+    : null;
+  return {
+    cui: parseInt(entry.cui) || parseInt(cif) || 0,
+    name: entry.name || entry.display_name || "",
+    address: entry.location || entry.locality || "",
+    caenCode,
+    inactive: !entry.is_active,
+    onrcStatusLabel: entry.status_label || null,
+    headquartersAddress: {
+      locality: entry.locality || ""
+    }
+  };
+}
 
-/**
- * Fetches company details from ANAF API by CIF (company identifier)
- * Implements retry logic for resilience against temporary failures
- * 
- * @param {string} cif - Company CIF/CUI (8-digit number)
- * @returns {Promise<Object|null>} - Company data or null if not found
- * @throws {Error} - If API fails after all retries
- */
+async function getCompanyFromCuiFirma(cif) {
+  const url = `${CUI_FIRMA_API_URL}?q=${encodeURIComponent(String(cif))}`;
+  const res = await fetch(url, {
+    headers: { "User-Agent": "job_seeker_ro_spider" }
+  });
+  if (!res.ok) throw new Error(`cuifirma.ro search error: ${res.status}`);
+  const json = await res.json();
+  const results = json.results || [];
+  const match = results.find(r => String(r.cui) === String(cif));
+  if (!match) throw new Error(`cuifirma.ro: CIF ${cif} not found`);
+  return normalizeCuifirmaResult(match, cif);
+}
+
 export async function getCompanyFromANAF(cif) {
   let lastError = null;
-  
-  // Retry loop with exponential backoff
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       const url = `${ANAF_API_URL}${cif}`;
       const res = await fetch(url, {
         headers: { "User-Agent": "job_seeker_ro_spider" }
       });
-      
-      // Handle HTTP errors
       if (!res.ok) {
         lastError = new Error(`ANAF API error: ${res.status}`);
         console.log(`ANAF attempt ${attempt}/${MAX_RETRIES} failed: ${res.status}, retrying...`);
         if (attempt < MAX_RETRIES) await sleep(RETRY_DELAY_MS);
         continue;
       }
-      
       const json = await res.json();
-      
-      // Handle API-level errors (e.g., company not found)
       if (json.success === false) {
         lastError = new Error(json.error?.message || "ANAF returned error");
         console.log(`ANAF attempt ${attempt}/${MAX_RETRIES} failed: ${json.error?.message}, retrying...`);
         if (attempt < MAX_RETRIES) await sleep(RETRY_DELAY_MS);
         continue;
       }
-      
-      // Success - return company data
       return json.data || null;
     } catch (err) {
       lastError = err;
@@ -93,65 +68,65 @@ export async function getCompanyFromANAF(cif) {
       if (attempt < MAX_RETRIES) await sleep(RETRY_DELAY_MS);
     }
   }
-  
-  // All retries exhausted
-  throw lastError || new Error("ANAF API failed after retries");
+  console.log("ANAF API failed after retries — trying cuifirma.ro...");
+  try {
+    return await getCompanyFromCuiFirma(cif);
+  } catch (fbErr) {
+    console.log(`cuifirma.ro also failed: ${fbErr.message}`);
+    throw lastError || new Error("ANAF API failed after retries");
+  }
 }
 
-// ============================================================================
-// ANAF API WITH FALLBACK - Graceful degradation when API is unavailable
-// ============================================================================
-
-/**
- * Fetches company from ANAF with fallback to cached data
- * This ensures the scraper can continue when ANAF API is down
- * 
- * @param {string} cif - Company CIF/CUI
- * @param {Object|null} cachedData - Previously cached company data (from company.json)
- * @returns {Promise<Object>} - Company data (fresh or cached)
- * @throws {Error} - If API fails and no cache available
- */
 export async function getCompanyFromANAFWithFallback(cif, cachedData = null) {
   try {
-    // Try live API first
     return await getCompanyFromANAF(cif);
   } catch (err) {
-    // API failed - log warning
-    console.log(`\n⚠️ ANAF API unavailable: ${err.message}`);
-    
-    // Use cached data if available
+    console.log(`\n ANAF API unavailable: ${err.message}`);
     if (cachedData) {
-      console.log("✅ Using cached company data as fallback");
+      console.log("Using cached company data as final fallback");
       return cachedData;
     }
-    
-    // No cache - rethrow error
     throw err;
   }
 }
 
-// ============================================================================
-// ANAF API - Searching companies by name/brand
-// ============================================================================
-
-/**
- * Searches for companies by brand name in ANAF database
- * Returns list of matching companies with their CIF and status
- * 
- * @param {string} brandName - Company name or brand to search for
- * @returns {Promise<Array>} - Array of matching company objects
- * @throws {Error} - If search API fails
- */
 export async function searchCompany(brandName) {
   const url = `${ANAF_SEARCH_URL}?q=${encodeURIComponent(brandName)}`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": "job_seeker_ro_spider" }
-  });
-  
-  if (!res.ok) {
-    throw new Error(`ANAF search error: ${res.status}`);
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "job_seeker_ro_spider" }
+    });
+    if (!res.ok) throw new Error(`ANAF search error: ${res.status}`);
+    const json = await res.json();
+    if (json.data && json.data.length > 0) return json.data;
+  } catch (err) {
+    console.log(`ANAF search failed: ${err.message}`);
   }
-  
-  const json = await res.json();
-  return json.data || [];
+  console.log("Trying cuifirma.ro as fallback for search...");
+  try {
+    const url = `${CUI_FIRMA_API_URL}?q=${encodeURIComponent(brandName)}`;
+    const res = await fetch(url, {
+      headers: { "User-Agent": "job_seeker_ro_spider" }
+    });
+    if (!res.ok) throw new Error(`cuifirma.ro search error: ${res.status}`);
+    const json = await res.json();
+    const results = json.results || [];
+    return results.map(r => ({
+      cui: parseInt(r.cui) || 0,
+      name: r.name || r.display_name || "",
+      statusLabel: r.status_label || "",
+      status: r.status || "",
+      address: r.location || "",
+      caenCode: r.primary_caen_display
+        ? r.primary_caen_display.split("—")[0]?.trim()
+        : null
+    }));
+  } catch (fbErr) {
+    console.log(`cuifirma.ro search fallback also failed: ${fbErr.message}`);
+    throw new Error(`ANAF search error: all sources failed for "${brandName}"`);
+  }
+}
+
+export async function searchCompanyWithFallback(brandName) {
+  return await searchCompany(brandName);
 }

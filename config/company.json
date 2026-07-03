@@ -1,11 +1,11 @@
 {
-  "cif": "33159615",
-  "legalName": "EPAM SYSTEMS INTERNATIONAL SRL",
-  "brand": "EPAM",
-  "website": "https://www.epam.com",
-  "careerUrl": "https://careers.epam.com",
-  "apiBase": "https://careers.epam.com",
-  "apiCountryId": "8150000000000001155",
+  "cif": "9533457",
+  "legalName": "ENDAVA ROMANIA SRL",
+  "brand": "Endava",
+  "website": "https://www.endava.com",
+  "careerUrl": "https://www.endava.com/careers/jobs",
+  "apiBase": "https://api.smartrecruiters.com/v1/companies/Endava/postings?country=ro",
+  "apiCountryId": "ro",
   "defaultLocation": "București",
-  "scraperFile": "https://raw.githubusercontent.com/sebiboga/epam-systems-international-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://raw.githubusercontent.com/sebiboga/endava-romania-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }

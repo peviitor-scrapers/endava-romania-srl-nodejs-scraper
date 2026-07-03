@@ -30,17 +30,17 @@ describe('index.js Component Tests', () => {
 
     it('should keep company uppercase', () => {
       const payload = {
-        source: 'epam.com',
-        company: 'epam systems international srl',
-        cif: '33159615',
+        source: 'smartrecruiters.com',
+        company: 'endava romania srl',
+        cif: '9533457',
         jobs: [
-          { url: 'https://test.com/1', title: 'Job 1', company: 'epam systems', cif: '33159615' }
+          { url: 'https://test.com/1', title: 'Job 1', company: 'endava romania', cif: '9533457' }
         ]
       };
 
       const result = index.transformJobsForSOLR(payload);
 
-      expect(result.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(result.company).toBe('ENDAVA ROMANIA SRL');
     });
 
     it('should normalize workmode values', () => {
@@ -70,15 +70,15 @@ describe('index.js Component Tests', () => {
   describe('mapToJobModel', () => {
     it('should map raw job to job model format', () => {
       const rawJob = {
-        url: 'https://careers.epam.com/job/123',
+        url: 'https://jobs.smartrecruiters.com/Endava/REF123',
         title: 'Senior Developer',
         location: ['Bucharest'],
-        tags: ['Java', 'Spring'],
+        tags: ['engineering'],
         workmode: 'hybrid'
       };
 
-      const COMPANY_NAME = 'EPAM SYSTEMS INTERNATIONAL SRL';
-      const COMPANY_CIF = '33159615';
+      const COMPANY_NAME = 'ENDAVA ROMANIA SRL';
+      const COMPANY_CIF = '9533457';
 
       const result = index.mapToJobModel(rawJob, COMPANY_CIF, COMPANY_NAME);
 
@@ -99,7 +99,7 @@ describe('index.js Component Tests', () => {
         title: 'Job 1'
       };
 
-      const result = index.mapToJobModel(rawJob, '33159615');
+      const result = index.mapToJobModel(rawJob, '9533457');
 
       expect(result.location).toBeUndefined();
       expect(result.tags).toBeUndefined();
@@ -109,112 +109,120 @@ describe('index.js Component Tests', () => {
     it('should handle missing title', () => {
       const rawJob = { url: 'https://test.com/1' };
 
-      const result = index.mapToJobModel(rawJob, '33159615');
+      const result = index.mapToJobModel(rawJob, '9533457');
 
       expect(result.title).toBeUndefined();
       expect(result.url).toBe('https://test.com/1');
     });
   });
 
+  describe('parseApiJob', () => {
+    it('should parse a single SmartRecruiters job object', () => {
+      const job = {
+        name: 'Senior Java Developer',
+        refNumber: 'REF1447T',
+        ref: 'https://api.smartrecruiters.com/v1/companies/Endava/postings/744000130149805',
+        location: {
+          city: 'Cluj-Napoca',
+          country: 'ro',
+          remote: false,
+          hybrid: true,
+          fullLocation: 'Cluj-Napoca, CJ, Romania'
+        },
+        department: { label: 'Client Delivery' },
+        function: { label: 'Engineering' }
+      };
+
+      const result = index.parseApiJob(job);
+
+      expect(result.title).toBe('Senior Java Developer');
+      expect(result.location).toEqual(['Cluj-Napoca']);
+      expect(result.workmode).toBe('hybrid');
+      expect(result.url).toBe('https://jobs.smartrecruiters.com/Endava/744000130149805');
+      expect(result.tags).toContain('client delivery');
+      expect(result.tags).toContain('engineering');
+    });
+  });
+
   describe('parseApiJobs', () => {
-    it('should parse EPAM API response format', () => {
+    it('should parse SmartRecruiters API response format', () => {
       const apiData = {
-        data: {
-          total: 100,
-          jobs: [
-            {
-              uid: '123',
-              name: 'Senior Developer',
-              city: [{ name: 'Bucharest' }],
-              country: [{ name: 'Romania' }],
-              vacancy_type: 'Hybrid',
-              skills: ['Java', 'Spring']
-            }
-          ]
-        }
+        content: [
+          {
+            name: 'Senior Java Developer',
+            refNumber: 'REF1447T',
+            ref: 'https://api.smartrecruiters.com/v1/companies/Endava/postings/744000130149805',
+            location: {
+              city: 'Cluj-Napoca',
+              country: 'ro',
+              remote: false,
+              hybrid: true,
+              fullLocation: 'Cluj-Napoca, CJ, Romania'
+            },
+            department: { label: 'Client Delivery' },
+            function: { label: 'Engineering' }
+          }
+        ]
       };
 
       const result = index.parseApiJobs(apiData);
 
       expect(result.jobs).toHaveLength(1);
-      expect(result.jobs[0].title).toBe('Senior Developer');
-      expect(result.jobs[0].location).toEqual(['Bucharest']);
+      expect(result.jobs[0].title).toBe('Senior Java Developer');
+      expect(result.jobs[0].location).toEqual(['Cluj-Napoca']);
       expect(result.jobs[0].workmode).toBe('hybrid');
+      expect(result.jobs[0].url).toBe('https://jobs.smartrecruiters.com/Endava/744000130149805');
+      expect(result.jobs[0].tags).toContain('client delivery');
+      expect(result.jobs[0].tags).toContain('engineering');
+    });
+
+    it('should map workmode correctly for remote jobs', () => {
+      const apiData = {
+        content: [
+          {
+            name: 'Remote Dev',
+            refNumber: 'REF999',
+            location: { city: 'Bucharest', remote: true, hybrid: false },
+            department: { label: 'Engineering' }
+          }
+        ]
+      };
+
+      const result = index.parseApiJobs(apiData);
+
+      expect(result.jobs[0].workmode).toBe('remote');
+    });
+
+    it('should map workmode to on-site when neither remote nor hybrid', () => {
+      const apiData = {
+        content: [
+          {
+            name: 'On-site Dev',
+            refNumber: 'REF888',
+            location: { city: 'Bucharest', remote: false, hybrid: false },
+            department: { label: 'Engineering' }
+          }
+        ]
+      };
+
+      const result = index.parseApiJobs(apiData);
+
+      expect(result.jobs[0].workmode).toBe('on-site');
     });
 
     it('should handle empty job list', () => {
-      const apiData = { data: { total: 0, jobs: [] } };
+      const apiData = { content: [] };
 
       const result = index.parseApiJobs(apiData);
 
       expect(result.jobs).toEqual([]);
+      expect(result.total).toBe(0);
     });
 
-    it('should handle missing data field', () => {
+    it('should handle missing content field', () => {
       const result = index.parseApiJobs({});
 
       expect(result.jobs).toEqual([]);
-    });
-
-    it('should handle multiple cities', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: '123',
-              name: 'Developer',
-              city: [{ name: 'Bucharest' }, { name: 'Cluj-Napoca' }],
-              country: [{ name: 'Romania' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].location).toEqual(['Bucharest', 'Cluj-Napoca']);
-    });
-  });
-
-  describe('URL Generation', () => {
-    it('should use seo.url when available', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: 'blt123',
-              name: 'Test Job',
-              seo: { url: '/en/vacancy/test-job-blt123_en' },
-              city: [{ name: 'Bucharest' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].url).toBe('https://careers.epam.com/en/vacancy/test-job-blt123_en');
-    });
-
-    it('should fallback to uid-based URL when no seo.url', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: 'blt456',
-              name: 'Test Job',
-              city: [{ name: 'Bucharest' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].url).toBe('https://careers.epam.com/en/vacancy/blt456_en');
     });
   });
 });

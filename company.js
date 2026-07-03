@@ -9,7 +9,7 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import { querySOLR, deleteJobsByCIF } from "./solr.js";
-import { getCompanyFromANAF } from "./src/anaf.js";
+import { getCompanyFromANAFWithFallback } from "./src/anaf.js";
 import companyConfig from "./config/company.js";
 
 // ============================================================================
@@ -263,7 +263,7 @@ export async function getCompanyData() {
   console.log(`Fetching fresh company data from ANAF for CIF: ${COMPANY_CIF}`);
   let anafData;
   try {
-    anafData = await getCompanyFromANAF(COMPANY_CIF);
+    anafData = await getCompanyFromANAFWithFallback(COMPANY_CIF, cachedData?.anaf || null);
   } catch (err) {
     if (cachedData?._stale) {
       console.log(`⚠️ ANAF unreachable (${err.message}) — falling back to stale cache`);

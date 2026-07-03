@@ -2,8 +2,6 @@ import { jest } from '@jest/globals';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import fetch from 'node-fetch';
-import companyConfig from '../../config/company.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
@@ -17,34 +15,13 @@ function itIfSolr(name, fn, timeout) {
   return it.skip(`${name} (skipped: SOLR_AUTH not set)`, fn, timeout);
 }
 
-async function checkAnafAvailability() {
-  try {
-    const res = await fetch('https://demoanaf.ro/api/company/' + companyConfig.cif, {
-      headers: { 'Accept': 'application/json' },
-      timeout: 5000
-    });
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
-
-const HAS_ANAF = await checkAnafAvailability();
-
-function itIfAnaf(name, fn, timeout) {
-  if (HAS_ANAF) {
-    return it(name, fn, timeout);
-  }
-  return it.skip(`${name} (skipped: ANAF unavailable)`, fn, timeout);
-}
-
 beforeAll(() => {
   if (HAS_SOLR) {
     process.env.SOLR_AUTH = process.env.SOLR_AUTH;
   }
 });
 
-const COMPANY_CIF = companyConfig.cif;
+const ENDAVA_CIF = '9533457';
 
 describe('Integration: API Workflow', () => {
 
@@ -55,32 +32,32 @@ describe('Integration: API Workflow', () => {
       anaf = await import('../../src/anaf.js');
     });
 
-    itIfAnaf('should search for ' + companyConfig.brand + ' brand and find the company', async () => {
-      const results = await anaf.searchCompany('' + companyConfig.brand + '');
+    it('should search for Endava brand and find the company', async () => {
+      const results = await anaf.searchCompany('Endava');
 
       expect(Array.isArray(results)).toBe(true);
       expect(results.length).toBeGreaterThan(0);
 
-      const epam = results.find(c =>
-        c.name.toUpperCase().includes('' + companyConfig.brand + ' SYSTEMS') && c.statusLabel === 'Funcțiune'
+      const endava = results.find(c =>
+        c.name.toUpperCase().includes('ENDAVA') && c.statusLabel === 'Funcțiune'
       );
-      expect(epam).toBeDefined();
-      expect(epam.cui.toString()).toBe(COMPANY_CIF);
+      expect(endava).toBeDefined();
+      expect(endava.cui.toString()).toBe(ENDAVA_CIF);
     }, 15000);
 
-    itIfAnaf('should return empty array for non-existent brand', async () => {
+    it('should return empty array for non-existent brand', async () => {
       const results = await anaf.searchCompany('ThisBrandDoesNotExistXYZ123');
 
       expect(Array.isArray(results)).toBe(true);
       expect(results.length).toBe(0);
     }, 15000);
 
-    itIfAnaf('should fetch company details by valid CIF', async () => {
-      const data = await anaf.getCompanyFromANAF(COMPANY_CIF);
+    it('should fetch company details by valid CIF', async () => {
+      const data = await anaf.getCompanyFromANAF(ENDAVA_CIF);
 
       expect(data).toBeDefined();
-      expect(data.cui).toBe(' + companyConfig.cif + ');
-      expect(data.name).toBe('' + companyConfig.legalName + '');
+      expect(data.cui).toBe(9533457);
+      expect(data.name).toBe('ENDAVA ROMANIA SRL');
       expect(data).toHaveProperty('address');
       expect(data).toHaveProperty('registrationNumber');
       expect(data).toHaveProperty('caenCode');
@@ -88,17 +65,17 @@ describe('Integration: API Workflow', () => {
       expect(data).toHaveProperty('onrcStatusLabel', 'Funcțiune');
     }, 15000);
 
-    itIfAnaf('should throw for invalid CIF', async () => {
+    it('should throw for invalid CIF', async () => {
       await expect(anaf.getCompanyFromANAF('00000000')).rejects.toThrow();
     }, 60000);
 
-    itIfAnaf('should use cached data when API fails (getCompanyFromANAFWithFallback)', async () => {
-      const cached = { cui: ' + companyConfig.cif + ', name: '' + companyConfig.legalName + '' };
+    it('should use cached data when API fails (getCompanyFromANAFWithFallback)', async () => {
+      const cached = { cui: 9533457, name: 'ENDAVA ROMANIA SRL' };
 
-      const data = await anaf.getCompanyFromANAFWithFallback(COMPANY_CIF, cached);
+      const data = await anaf.getCompanyFromANAFWithFallback(ENDAVA_CIF, cached);
 
       expect(data).toBeDefined();
-      expect(data.cui).toBe(' + companyConfig.cif + ');
+      expect(data.cui).toBe(9533457);
     }, 15000);
   });
 
@@ -109,9 +86,15 @@ describe('Integration: API Workflow', () => {
       company = await import('../../company.js');
     });
 
-    it('should respond successfully and contain companies array (Peviitor API may block non-browser requests)', async () => {
-      // Peviitor API blocks non-browser requests — skip live check, mark as passed
-      expect(true).toBe(true);
+    it.skip('should respond successfully and contain companies array (Peviitor API may block non-browser requests)', async () => {
+      const res = await fetch('https://api.peviitor.ro/v1/company/', {
+        headers: { 'User-Agent': 'job_seeker_ro_spider' }
+      });
+
+      expect(res.ok).toBe(true);
+      const data = await res.json();
+      expect(data).toHaveProperty('companies');
+      expect(Array.isArray(data.companies)).toBe(true);
     }, 15000);
   });
 
@@ -123,45 +106,45 @@ describe('Integration: API Workflow', () => {
     });
 
     itIfSolr('should query company core by ID', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
+      const result = await solr.queryCompanySOLR(`id:${ENDAVA_CIF}`);
 
       expect(result.numFound).toBe(1);
-      const epam = result.docs[0];
-      expect(epam.id).toBe(COMPANY_CIF);
-      expect(epam.company).toBe('' + companyConfig.legalName + '');
-      expect(epam.brand).toBe('' + companyConfig.brand + '');
-      expect(epam.status).toBe('activ');
-      expect(Array.isArray(epam.location)).toBe(true);
-      expect(epam.lastScraped).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      const endava = result.docs[0];
+      expect(endava.id).toBe(ENDAVA_CIF);
+      expect(endava.company).toBe('ENDAVA ROMANIA SRL');
+      expect(endava.brand).toBe('Endava');
+      expect(endava.status).toBe('activ');
+      expect(Array.isArray(endava.location)).toBe(true);
+      expect(endava.lastScraped).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     }, 15000);
 
     itIfSolr('should have required company model fields', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      const epam = result.docs[0];
+      const result = await solr.queryCompanySOLR(`id:${ENDAVA_CIF}`);
+      const endava = result.docs[0];
 
-      expect(epam).toHaveProperty('id', COMPANY_CIF);
-      expect(epam).toHaveProperty('company');
-      expect(epam).toHaveProperty('brand', '' + companyConfig.brand + '');
-      expect(epam).toHaveProperty('status');
-      expect(['activ', 'suspendat', 'inactiv', 'radiat']).toContain(epam.status);
-      expect(epam).toHaveProperty('location');
-      expect(Array.isArray(epam.location)).toBe(true);
-      expect(epam).toHaveProperty('website');
-      expect(Array.isArray(epam.website)).toBe(true);
-      expect(epam.website[0]).toMatch(/^https?:\/\/.+/);
-      expect(epam).toHaveProperty('career');
-      expect(Array.isArray(epam.career)).toBe(true);
-      expect(epam.career[0]).toMatch(/^https?:\/\/.+/);
-      expect(epam).toHaveProperty('lastScraped');
-      expect(epam).toHaveProperty('scraperFile');
+      expect(endava).toHaveProperty('id', ENDAVA_CIF);
+      expect(endava).toHaveProperty('company');
+      expect(endava).toHaveProperty('brand', 'Endava');
+      expect(endava).toHaveProperty('status');
+      expect(['activ', 'suspendat', 'inactiv', 'radiat']).toContain(endava.status);
+      expect(endava).toHaveProperty('location');
+      expect(Array.isArray(endava.location)).toBe(true);
+      expect(endava).toHaveProperty('website');
+      expect(Array.isArray(endava.website)).toBe(true);
+      expect(endava.website[0]).toMatch(/^https?:\/\/.+/);
+      expect(endava).toHaveProperty('career');
+      expect(Array.isArray(endava.career)).toBe(true);
+      expect(endava.career[0]).toMatch(/^https?:\/\/.+/);
+      expect(endava).toHaveProperty('lastScraped');
+      expect(endava).toHaveProperty('scraperFile');
     }, 15000);
 
     itIfSolr('should have optional field (group) if present', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      const epam = result.docs[0];
+      const result = await solr.queryCompanySOLR(`id:${ENDAVA_CIF}`);
+      const endava = result.docs[0];
 
-      if (epam.group !== undefined) {
-        expect(typeof epam.group).toBe('string');
+      if (endava.group !== undefined) {
+        expect(typeof endava.group).toBe('string');
       }
     }, 15000);
   });
@@ -174,12 +157,7 @@ describe('Integration: API Workflow', () => {
     });
 
     itIfSolr('should query jobs by CIF and return valid data', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
-
-      if (result.numFound === 0) {
-        console.log('⚠️ No ' + companyConfig.brand + ' jobs in Solr — skipping job field assertions (scraper may not have run yet)');
-        return;
-      }
+      const result = await solr.querySOLR(ENDAVA_CIF);
 
       expect(result.numFound).toBeGreaterThan(0);
       expect(Array.isArray(result.docs)).toBe(true);
@@ -187,14 +165,14 @@ describe('Integration: API Workflow', () => {
       const job = result.docs[0];
       expect(job).toHaveProperty('url');
       expect(job).toHaveProperty('title');
-      expect(job).toHaveProperty('company', '' + companyConfig.legalName + '');
-      expect(job).toHaveProperty('cif', COMPANY_CIF);
+      expect(job).toHaveProperty('company', 'ENDAVA ROMANIA SRL');
+      expect(job).toHaveProperty('cif', ENDAVA_CIF);
       expect(job).toHaveProperty('status');
       expect(job).toHaveProperty('location');
     }, 15000);
 
     itIfSolr('should not have duplicate URLs for same CIF', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
+      const result = await solr.querySOLR(ENDAVA_CIF);
 
       const urls = result.docs.map(j => j.url);
       const uniqueUrls = new Set(urls);
@@ -203,7 +181,7 @@ describe('Integration: API Workflow', () => {
 
     itIfSolr('should have valid status values for all jobs', async () => {
       const validStatuses = ['scraped', 'tested', 'verified', 'published'];
-      const result = await solr.querySOLR(COMPANY_CIF);
+      const result = await solr.querySOLR(ENDAVA_CIF);
 
       for (const job of result.docs) {
         expect(validStatuses).toContain(job.status);
@@ -211,10 +189,10 @@ describe('Integration: API Workflow', () => {
     }, 15000);
 
     itIfSolr('should have valid CIF format for all jobs', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
+      const result = await solr.querySOLR(ENDAVA_CIF);
 
       for (const job of result.docs) {
-        expect(job.cif).toMatch(/^\d{8}$/);
+        expect(job.cif).toMatch(/^\d{7,8}$/);
       }
     }, 15000);
   });
@@ -228,42 +206,37 @@ describe('Integration: API Workflow', () => {
       companyModule = await import('../../company.js');
     });
 
-    itIfAnaf('should complete the ANAF → Peviitor validation path', async () => {
-      const searchResults = await anaf.searchCompany('' + companyConfig.brand + '');
+    it('should complete the ANAF validation path', async () => {
+      const searchResults = await anaf.searchCompany('Endava');
       expect(searchResults.length).toBeGreaterThan(0);
 
-      const epamCompany = searchResults.find(c =>
-        c.name.toUpperCase().includes('' + companyConfig.brand + '') && c.statusLabel === 'Funcțiune'
+      const endavaCompany = searchResults.find(c =>
+        c.name.toUpperCase().includes('ENDAVA') && c.statusLabel === 'Funcțiune'
       );
-      expect(epamCompany).toBeDefined();
+      expect(endavaCompany).toBeDefined();
 
-      const anafData = await anaf.getCompanyFromANAF(epamCompany.cui.toString());
-      expect(anafData.name).toBe('' + companyConfig.legalName + '');
+      const anafData = await anaf.getCompanyFromANAF(endavaCompany.cui.toString());
+      expect(anafData.name).toBe('ENDAVA ROMANIA SRL');
       expect(anafData.inactive).toBe(false);
-    }, 30000);
-
-    itIfSolr('should have matching CIF in company core', async () => {
-      const companyResult = await companyModule.validateAndGetCompany();
-      const solrObj = await import('../../solr.js');
-
-      const solrResult = await solrObj.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      expect(solrResult.numFound).toBe(1);
-      expect(solrResult.docs[0].id).toBe(COMPANY_CIF);
-      expect(solrResult.docs[0].company).toBe('' + companyConfig.legalName + '');
     }, 30000);
 
     itIfSolr('should validate company and query SOLR for existing jobs', async () => {
       const companyResult = await companyModule.validateAndGetCompany();
 
       expect(companyResult.status).toBe('active');
-      expect(companyResult.company).toBe('' + companyConfig.legalName + '');
-      expect(companyResult.cif).toBe(COMPANY_CIF);
-
-      if (companyResult.existingJobsCount === 0) {
-        console.log('⚠️ No ' + companyConfig.brand + ' jobs in Solr — skipping job count assertion (scraper may not have run yet)');
-        return;
-      }
+      expect(companyResult.company).toBe('ENDAVA ROMANIA SRL');
+      expect(companyResult.cif).toBe(ENDAVA_CIF);
       expect(companyResult.existingJobsCount).toBeGreaterThan(0);
+    }, 30000);
+
+    itIfSolr('should have matching CIF in company core', async () => {
+      const companyResult = await companyModule.validateAndGetCompany();
+      const solrObj = await import('../../solr.js');
+
+      const solrResult = await solrObj.queryCompanySOLR(`id:${ENDAVA_CIF}`);
+      expect(solrResult.numFound).toBe(1);
+      expect(solrResult.docs[0].id).toBe(ENDAVA_CIF);
+      expect(solrResult.docs[0].company).toBe('ENDAVA ROMANIA SRL');
     }, 30000);
   });
 });
