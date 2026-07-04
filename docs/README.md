@@ -1,8 +1,8 @@
 # job_seeker_ro_spider
 
-**job_seeker_ro_spider** — scraper pentru job-urile EPAM Systems din România.
+**job_seeker_ro_spider** — scraper pentru job-urile Endava din România.
 
-Extrage anunțurile de pe [EPAM Careers Romania](https://careers.epam.com/en/jobs/romania) și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul SOLR.
+Extrage anunțurile de pe [Endava Careers](https://www.endava.com/careers) și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul SOLR.
 
 ## Identificare
 
@@ -14,15 +14,15 @@ job_seeker_ro_spider
 
 ## Ce face
 
-1. **Validează compania** — interoghează API-ul public ANAF ([demoanaf.ro](https://demoanaf.ro)) după CIF-ul EPAM (33159615) și verifică:
-   - Denumirea oficială: EPAM SYSTEMS INTERNATIONAL SRL
+1. **Validează compania** — interoghează API-ul public ANAF ([demoanaf.ro](https://demoanaf.ro)) după CIF-ul Endava (9533457) și verifică:
+   - Denumirea oficială: ENDAVA ROMANIA SRL
    - Status: activ/inactiv/radiat
    - Adresa completă din registrul comerțului
 2. **Cross-validează cu Peviitor** — verifică existența companiei în API-ul Peviitor
-3. **Scrape-uiește job-urile** — extrage lista completă de job-uri din API-ul public EPAM Careers, filtrat pe România
+3. **Scrape-uiește job-urile** — extrage lista completă de job-uri din API-ul public SmartRecruiters API, filtrat pe România
 4. **Transformă datele** — normalizează locațiile (doar orașe românești), tag-urile (lowercase), workmode-ul (remote/on-site/hybrid)
 5. **Stochează în SOLR** — upsert în `job` core (job-urile) și `company` core (datele companiei cu adresa completă)
-6. **Generează docs/jobs.md** — fișier markdown cu informații companie + toate job-urile curente, publicat pe [GitHub Pages](https://sebiboga.github.io/epam-systems-international-srl-nodejs-scraper/jobs.md)
+6. **Generează docs/jobs.md** — fișier markdown cu informații companie + toate job-urile curente, publicat pe [GitHub Pages](https://sebiboga.github.io/endava-romania-srl-nodejs-scraper/jobs.md)
 
 ## Structură proiect
 
@@ -51,17 +51,13 @@ job_seeker_ro_spider
 
 | API | URL | Autentificare |
 |---|---|---|
-| EPAM Careers | `https://careers.epam.com/api/jobs/v2/search/...` | Public |
+| SmartRecruiters API | `https://api.smartrecruiters.com/...` | Public |
 | ANAF (demoanaf) | `https://demoanaf.ro/api/...` | Public |
 | Peviitor | `https://api.peviitor.ro/v1/company/` | Public |
 | SOLR (job core) | `https://solr.peviitor.ro/solr/job` | `SOLR_AUTH` |
 | SOLR (company core) | `https://solr.peviitor.ro/solr/company` | `SOLR_AUTH` |
 
 ## Robots.txt
-
-EPAM Careers [robots.txt](https://careers.epam.com/robots.txt) dezactivează:
-- `/api/*` — API-ul JSON folosit de scraper
-- `/*/vacancy/*` — paginile individuale de job
 
 Scraper-ul folosește API-ul cu rate limiting (1s delay între pagini, 10 job-uri/cerere) și un singur User-Agent identificabil. Paginile individuale de job sunt doar verificate (HEAD request), nu parse-uite.
 
@@ -97,7 +93,7 @@ npm run test:unit
 # Doar integrare (necesită ANAF live, SOLR conditional)
 npm run test:integration
 
-# Doar E2E (API real EPAM + ANAF + SOLR)
+# Doar E2E (API real SmartRecruiters + ANAF + SOLR)
 npm run test:e2e
 ```
 

@@ -14,13 +14,16 @@ function normalizeCuifirmaResult(entry, cif) {
   const caenCode = entry.primary_caen_display
     ? entry.primary_caen_display.split("—")[0]?.trim()
     : null;
+  const rawLabel = (entry.status_label || "").toLowerCase();
+  const statusLabel = rawLabel === "activă" ? "Funcțiune" : (entry.status_label || null);
   return {
     cui: parseInt(entry.cui) || parseInt(cif) || 0,
     name: entry.name || entry.display_name || "",
     address: entry.location || entry.locality || "",
     caenCode,
     inactive: !entry.is_active,
-    onrcStatusLabel: entry.status_label || null,
+    registrationNumber: entry.registration_number || entry.onrc_number || null,
+    onrcStatusLabel: statusLabel,
     headquartersAddress: {
       locality: entry.locality || ""
     }
