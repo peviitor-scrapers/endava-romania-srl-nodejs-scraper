@@ -1,0 +1,785 @@
+# ENDAVA ROMANIA SRL
+
+## Company Info
+
+| Field | Value |
+|-------|-------|
+| CIF | 9533457 |
+| Brand | ENDAVA |
+| Status | activ |
+| Location | București |
+| Website | [https://www.endava.com](https://www.endava.com) |
+| Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
+| Last Scraped | 2026-08-02 |
+
+## Current Job Listings (96)
+
+_Generated: 2026-08-02T03:14:27.939Z_
+
+### Senior Business Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140662770](https://jobs.smartrecruiters.com/Endava/744000140662770)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, analyst
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274629](https://jobs.smartrecruiters.com/Endava/744000140274629)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274339](https://jobs.smartrecruiters.com/Endava/744000140274339)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274039](https://jobs.smartrecruiters.com/Endava/744000140274039)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140273909](https://jobs.smartrecruiters.com/Endava/744000140273909)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Science/AI Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140013017](https://jobs.smartrecruiters.com/Endava/744000140013017)
+- **Work Mode:** on-site
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Science/AI Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140014030](https://jobs.smartrecruiters.com/Endava/744000140014030)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Product Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138600330](https://jobs.smartrecruiters.com/Endava/744000138600330)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Senior Product Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138601609](https://jobs.smartrecruiters.com/Endava/744000138601609)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Senior Network & Microsoft Security Engineer 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138355701](https://jobs.smartrecruiters.com/Endava/744000138355701)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138258918](https://jobs.smartrecruiters.com/Endava/744000138258918)
+- **Work Mode:** on-site
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138088509](https://jobs.smartrecruiters.com/Endava/744000138088509)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Senior Product Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137903302](https://jobs.smartrecruiters.com/Endava/744000137903302)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137845018](https://jobs.smartrecruiters.com/Endava/744000137845018)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137842756](https://jobs.smartrecruiters.com/Endava/744000137842756)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137844199](https://jobs.smartrecruiters.com/Endava/744000137844199)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137843620](https://jobs.smartrecruiters.com/Endava/744000137843620)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137843429](https://jobs.smartrecruiters.com/Endava/744000137843429)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Typescript Automation Tester
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137842234](https://jobs.smartrecruiters.com/Endava/744000137842234)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Onsite Support Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137472695](https://jobs.smartrecruiters.com/Endava/744000137472695)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** business support, information technology
+- **Status:** scraped
+
+### Senior Data Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137454115](https://jobs.smartrecruiters.com/Endava/744000137454115)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137454399](https://jobs.smartrecruiters.com/Endava/744000137454399)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137452973](https://jobs.smartrecruiters.com/Endava/744000137452973)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137452999](https://jobs.smartrecruiters.com/Endava/744000137452999)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137451649](https://jobs.smartrecruiters.com/Endava/744000137451649)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Full Stack Software Engineer (.Net with React)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137105589](https://jobs.smartrecruiters.com/Endava/744000137105589)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Finance-Procurement Process Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000136819924](https://jobs.smartrecruiters.com/Endava/744000136819924)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** business support, finance
+- **Status:** scraped
+
+### Solution Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000135998169](https://jobs.smartrecruiters.com/Endava/744000135998169)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Python Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000135015569](https://jobs.smartrecruiters.com/Endava/744000135015569)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Infrastructure Security Tester/Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000134510149](https://jobs.smartrecruiters.com/Endava/744000134510149)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Infrastructure Security Tester/Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000134510029](https://jobs.smartrecruiters.com/Endava/744000134510029)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Infrastructure Security Tester/Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000134507520](https://jobs.smartrecruiters.com/Endava/744000134507520)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Senior AI/ML Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133586359](https://jobs.smartrecruiters.com/Endava/744000133586359)
+- **Work Mode:** on-site
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior AI/ML Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133586039](https://jobs.smartrecruiters.com/Endava/744000133586039)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer with Python and Databricks
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133531102](https://jobs.smartrecruiters.com/Endava/744000133531102)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133023400](https://jobs.smartrecruiters.com/Endava/744000133023400)
+- **Work Mode:** on-site
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133022705](https://jobs.smartrecruiters.com/Endava/744000133022705)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133020715](https://jobs.smartrecruiters.com/Endava/744000133020715)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133021700](https://jobs.smartrecruiters.com/Endava/744000133021700)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000132999059](https://jobs.smartrecruiters.com/Endava/744000132999059)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000132350648](https://jobs.smartrecruiters.com/Endava/744000132350648)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000132348505](https://jobs.smartrecruiters.com/Endava/744000132348505)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000132350239](https://jobs.smartrecruiters.com/Endava/744000132350239)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Power Platform Technical Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000131428581](https://jobs.smartrecruiters.com/Endava/744000131428581)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000130149805](https://jobs.smartrecruiters.com/Endava/744000130149805)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Head of Engineering | Business Systems 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000129983173](https://jobs.smartrecruiters.com/Endava/744000129983173)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Network Security Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000128426986](https://jobs.smartrecruiters.com/Endava/744000128426986)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
+
+### Full Stack Software Engineer (Java with React)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000127896687](https://jobs.smartrecruiters.com/Endava/744000127896687)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Microsoft Dynamics/Power Platform Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000126654212](https://jobs.smartrecruiters.com/Endava/744000126654212)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Salesforce Marketing Cloud Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000126054429](https://jobs.smartrecruiters.com/Endava/744000126054429)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000125823617](https://jobs.smartrecruiters.com/Endava/744000125823617)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Security Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000123183689](https://jobs.smartrecruiters.com/Endava/744000123183689)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Lead Cyber Security Analyst 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000120968399](https://jobs.smartrecruiters.com/Endava/744000120968399)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, information technology
+- **Status:** scraped
+
+### Salesforce Solution Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000118178507](https://jobs.smartrecruiters.com/Endava/744000118178507)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Development Consultant (Java+React) 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000117808267](https://jobs.smartrecruiters.com/Endava/744000117808267)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000117664887](https://jobs.smartrecruiters.com/Endava/744000117664887)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior DevSecOps Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000115633775](https://jobs.smartrecruiters.com/Endava/744000115633775)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Development Consultant (Python)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000111062665](https://jobs.smartrecruiters.com/Endava/744000111062665)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Development Lead (.NET)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110372976](https://jobs.smartrecruiters.com/Endava/744000110372976)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (Java+React) Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110339130](https://jobs.smartrecruiters.com/Endava/744000110339130)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (NET+React) Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110164395](https://jobs.smartrecruiters.com/Endava/744000110164395)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Development Consultant Python
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110162140](https://jobs.smartrecruiters.com/Endava/744000110162140)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (NET+React) Lead Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110161485](https://jobs.smartrecruiters.com/Endava/744000110161485)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (Java+React) Lead Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110160825](https://jobs.smartrecruiters.com/Endava/744000110160825)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (Java+React) Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110160735](https://jobs.smartrecruiters.com/Endava/744000110160735)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110159639](https://jobs.smartrecruiters.com/Endava/744000110159639)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (Java+React) Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109252705](https://jobs.smartrecruiters.com/Endava/744000109252705)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109251396](https://jobs.smartrecruiters.com/Endava/744000109251396)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109247948](https://jobs.smartrecruiters.com/Endava/744000109247948)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Fullstack (Java+React) Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109247642](https://jobs.smartrecruiters.com/Endava/744000109247642)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Java Developer Consultant 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109248167](https://jobs.smartrecruiters.com/Endava/744000109248167)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Salesforce Data 360 (Data Cloud) Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000108142745](https://jobs.smartrecruiters.com/Endava/744000108142745)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior AI/ML Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000107718865](https://jobs.smartrecruiters.com/Endava/744000107718865)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior AI/ML Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000107718675](https://jobs.smartrecruiters.com/Endava/744000107718675)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior AI/ML Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000107716381](https://jobs.smartrecruiters.com/Endava/744000107716381)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105840416](https://jobs.smartrecruiters.com/Endava/744000105840416)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105841346](https://jobs.smartrecruiters.com/Endava/744000105841346)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Salesforce Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105655416](https://jobs.smartrecruiters.com/Endava/744000105655416)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Science/AI Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105614865](https://jobs.smartrecruiters.com/Endava/744000105614865)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Science/AI Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105614490](https://jobs.smartrecruiters.com/Endava/744000105614490)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Science/AI Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000105590355](https://jobs.smartrecruiters.com/Endava/744000105590355)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000104908208](https://jobs.smartrecruiters.com/Endava/744000104908208)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Java Developer Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000104412975](https://jobs.smartrecruiters.com/Endava/744000104412975)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Lead Cyber Security Analyst 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000103681696](https://jobs.smartrecruiters.com/Endava/744000103681696)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, information technology
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000101148905](https://jobs.smartrecruiters.com/Endava/744000101148905)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Data Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000097191435](https://jobs.smartrecruiters.com/Endava/744000097191435)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Tags:** client delivery, product management
+- **Status:** scraped
+
+### Data Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000097190445](https://jobs.smartrecruiters.com/Endava/744000097190445)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, product management
+- **Status:** scraped
+
+### Data Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000097189511](https://jobs.smartrecruiters.com/Endava/744000097189511)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, product management
+- **Status:** scraped
+
+### Data Architect
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000097190040](https://jobs.smartrecruiters.com/Endava/744000097190040)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, product management
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000095412020](https://jobs.smartrecruiters.com/Endava/744000095412020)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior MS Dynamics Developer (Microsoft Power Platform)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000094016565](https://jobs.smartrecruiters.com/Endava/744000094016565)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Lead Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000081298382](https://jobs.smartrecruiters.com/Endava/744000081298382)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Python, AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000074254755](https://jobs.smartrecruiters.com/Endava/744000074254755)
+- **Work Mode:** on-site
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Python, AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000074254655](https://jobs.smartrecruiters.com/Endava/744000074254655)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Python, AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000074254256](https://jobs.smartrecruiters.com/Endava/744000074254256)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Python Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000066328905](https://jobs.smartrecruiters.com/Endava/744000066328905)
+- **Work Mode:** on-site
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
