@@ -16,37 +16,6 @@ on:
         default: 'true'
 
 jobs:
-  validate-jobs:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
-    needs: Automation-Tests
-    
-    steps:
-      - uses: actions/checkout@v5
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: '24'
-          
-      - name: Install dependencies
-        run: npm install
-        
-      - name: Validate and remove expired jobs
-        run: |
-          if [ "${{ github.event_name }}" == "schedule" ]; then
-            echo "Schedule trigger — running LIVE mode..."
-            node --no-deprecation tests/validate-endava-jobs.js --delete
-          elif [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
-            echo "Running in DRY RUN mode..."
-            node --no-deprecation tests/validate-endava-jobs.js --dry-run
-          else
-            echo "Running in LIVE mode (will delete expired jobs)..."
-            node --no-deprecation tests/validate-endava-jobs.js --delete
-          fi
-        env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
-
   create-autoheal-issue:
     runs-on: ubuntu-latest
     if: failure()
@@ -75,11 +44,40 @@ jobs:
           5. Close this issue — the next push will re-trigger the workflow."
 
           gh issue create \
-            --title "🤖 Auto-heal: ${{ github.repository }} workflow failed $(date -u +%Y-%m-%d)" \
+            --title "Auto-heal: ${{ github.repository }} workflow failed $(date -u +%Y-%m-%d)" \
             --label "auto-heal" \
             --body "$BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  validate-jobs:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    needs: Automation-Tests
+    
+    steps:
+      - uses: actions/checkout@v5
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Validate and remove expired jobs
+        run: |
+          if [ "${{ github.event_name }}" == "schedule" ]; then
+            echo "Schedule trigger — running LIVE mode..."
+            node --no-deprecation tests/validate-endava-jobs.js --delete
+          elif [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            echo "Running in DRY RUN mode..."
+            node --no-deprecation tests/validate-endava-jobs.js --dry-run
+          else
+            echo "Running in LIVE mode (will delete expired jobs)..."
+            node --no-deprecation tests/validate-endava-jobs.js --delete
+          fi
 
   ensure-company-core:
     runs-on: ubuntu-latest
@@ -88,20 +86,16 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Ensure company exists in company core
-        env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
         run: |
-          # Load company identity from single source of truth
-          CIF=$(jq -r '.cif' config/company.json)
-          LEGAL_NAME=$(jq -r '.legalName' config/company.json)
-          BRAND=$(jq -r '.brand' config/company.json)
-          WEBSITE=$(jq -r '.website' config/company.json)
-          CAREER=$(jq -r '.careerUrl' config/company.json)
-          DEFAULT_LOC=$(jq -r '.defaultLocation' config/company.json)
-          SCRAPER_FILE=$(jq -r '.scraperFile' config/company.json)
           TODAY=$(date -u +%Y-%m-%d)
+          CIF=$(jq -r '.id' scraper/config/company.json)
+          LEGAL_NAME=$(jq -r '.company' scraper/config/company.json)
+          BRAND=$(jq -r '.brand' scraper/config/company.json)
+          WEBSITE=$(jq -r '.website[0]' scraper/config/company.json)
+          CAREER=$(jq -r '.career[0]' scraper/config/company.json)
+          DEFAULT_LOC=$(jq -r '.location[0]' scraper/config/company.json)
+          SCRAPER_FILE=$(jq -r '.scraperFile' scraper/config/company.json)
 
-          echo "Upserting ${BRAND} (CIF: ${CIF}) into Solr company core..."
           jq -n \
             --arg id "$CIF" \
             --arg company "$LEGAL_NAME" \
@@ -111,16 +105,26 @@ jobs:
             --arg loc "$DEFAULT_LOC" \
             --arg today "$TODAY" \
             --arg scraperFile "$SCRAPER_FILE" \
-            '[{id:$id,company:$company,brand:$brand,status:"activ",location:[$loc],website:[$website],career:[$career],lastScraped:$today,scraperFile:$scraperFile}]' \
+            '{id:$id,company:$company,brand:$brand,status:"activ",location:[$loc],website:[$website],career:[$career],lastScraped:$today,scraperFile:$scraperFile}' \
             > company_data.json
 
-          curl -s --user "${SOLR_AUTH}" \
-            "https://solr.peviitor.ro/solr/company/update/json?commit=true" \
-            -X POST \
+          echo "Upserting ${BRAND} (CIF: ${CIF}) via peviitor API..."
+          curl -s -X PUT \
+            "https://api.peviitor.ro/v1/firme/company/add/" \
             -H "Content-Type: application/json" \
             --data-binary @company_data.json
 
-          echo "✅ SUCCESS: ${BRAND} upserted into company core"
+          FINAL=$(curl -s \
+            "https://api.peviitor.ro/v1/firme/company/?cif=${CIF}" | jq '.total')
+
+          echo "${BRAND} count after upsert: $FINAL"
+
+          if [ "$FINAL" -ge "1" ]; then
+            echo "SUCCESS: ${BRAND} is in company core"
+          else
+            echo "FAILED: ${BRAND} still not in company core"
+            exit 1
+          fi
 
   Automation-Tests:
     runs-on: ubuntu-latest
@@ -147,9 +151,8 @@ jobs:
         run: |
           npm run test:unit
           sed -i 's|<title>Test Report</title>|<title>Pre-scrape: Unit Tests — ENDAVA ROMANIA SRL</title>|;s|<h1 id="title">Test Report</h1>|<h1 id="title">Pre-scrape: Unit Tests — ENDAVA ROMANIA SRL</h1>|' test-report.html
+          mkdir -p docs/test-results
           cp test-report.html docs/test-results/pre-scrape-unit.html || true
-        env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
       - name: Upload Unit Test Results
         uses: actions/upload-artifact@v7
@@ -162,9 +165,8 @@ jobs:
         run: |
           npm run test:integration
           sed -i 's|<title>Test Report</title>|<title>Pre-scrape: Integration Tests — ENDAVA ROMANIA SRL</title>|;s|<h1 id="title">Test Report</h1>|<h1 id="title">Pre-scrape: Integration Tests — ENDAVA ROMANIA SRL</h1>|' test-report.html
+          mkdir -p docs/test-results
           cp test-report.html docs/test-results/pre-scrape-integration.html || true
-        env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
       - name: Upload Integration Test Results
         uses: actions/upload-artifact@v7
@@ -177,9 +179,8 @@ jobs:
         run: |
           npm run test:e2e
           sed -i 's|<title>Test Report</title>|<title>Post-scrape: E2E Tests — ENDAVA ROMANIA SRL</title>|;s|<h1 id="title">Test Report</h1>|<h1 id="title">Post-scrape: E2E Tests — ENDAVA ROMANIA SRL</h1>|' test-report.html
+          mkdir -p docs/test-results
           cp test-report.html docs/test-results/post-scrape.html || true
-        env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
       - name: Upload E2E Test Results
         uses: actions/upload-artifact@v7
@@ -192,11 +193,11 @@ jobs:
         run: |
           npm run test:consistency
           sed -i 's|<title>Test Report</title>|<title>Post-scrape: Consistency Tests — ENDAVA ROMANIA SRL</title>|;s|<h1 id="title">Test Report</h1>|<h1 id="title">Post-scrape: Consistency Tests — ENDAVA ROMANIA SRL</h1>|' test-report.html
+          mkdir -p docs/test-results
           cp test-report.html docs/test-results/post-scrape-consistency.html || true
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
 
       - name: Upload Consistency Test Results
         uses: actions/upload-artifact@v7
@@ -212,4 +213,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/test-results/
           git commit -m "[skip ci] Update test results" || echo "No changes to commit"
-          git push || echo "Push failed (race condition) — will be picked up next run"
+          for i in 1 2 3 4 5; do
+            git pull origin main --rebase -X theirs || true
+            if git push; then
+              break
+            fi
+            echo "Push attempt $i failed — retrying..."
+            sleep 5
+          done

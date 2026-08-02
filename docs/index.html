@@ -248,7 +248,7 @@
       <img src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor" class="logo-img">
     </a>
     <h1 data-i18n="pageTitle">Locuri de muncă</h1>
-    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă Endava Romania</p>
+    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă ENDAVA Romania</p>
 
     <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
       <a href="https://github.com/sebiboga/endava-romania-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
@@ -300,11 +300,11 @@
     <div class="card-header" data-i18n="aboutTitle">Despre acest scraper</div>
     <div class="card-body">
       <ul class="features-list" data-i18n="featuresList">
-        <li data-i18n="f1">Extrage job-uri de pe SmartRecruiters API</li>
+        <li data-i18n="f1">Extrage job-uri de pe SmartRecruiters API (Endava)</li>
         <li data-i18n="f2">Parsează cu fetch (JSON API)</li>
         <li data-i18n="f3">Validează compania via ANAF</li>
         <li data-i18n="f4">Verifică și elimină job-uri expirate</li>
-        <li data-i18n="f5">Salvează în SOLR pentru peviitor.ro</li>
+        <li data-i18n="f5">Salvează în API-ul Peviitor</li>
       </ul>
     </div>
   </div>
@@ -354,8 +354,8 @@ async function loadCompanyConfig() {
     const res = await fetch("./company.json", { cache: "no-cache" });
     if (!res.ok) return;
     const cfg = await res.json();
-    if (cfg.legalName) COMPANY = cfg.legalName;
-    if (cfg.cif) COMPANY_CIF = cfg.cif;
+    if (cfg.company) COMPANY = cfg.company;
+    if (cfg.id) COMPANY_CIF = cfg.id;
   } catch (e) {
     console.warn("company.json not available, using fallback constants");
   }
@@ -363,16 +363,16 @@ async function loadCompanyConfig() {
 
 const i18n = {
   en: {
-    pageTitle: "Endava Jobs — peviitor.ro",
-    subtitle: "Automated scraper for Endava Romania jobs",
+    pageTitle: "ENDAVA Jobs — peviitor.ro",
+    subtitle: "Automated scraper for ENDAVA Romania jobs",
     jobsLabel: "Jobs",
     verifiedLabel: "Verified",
     aboutTitle: "About this scraper",
-    f1: "Extracts jobs from SmartRecruiters API",
+    f1: "Extracts jobs from SmartRecruiters API (Endava)",
     f2: "Parses with fetch (JSON API)",
     f3: "Validates company via ANAF",
     f4: "Checks and removes expired jobs",
-    f5: "Saves to SOLR for peviitor.ro",
+    f5: "Saves to Peviitor API",
     companyTitle: "About the company",
     runBtn: "Run Scraper",
     jobsTitle: "Available jobs",
@@ -383,15 +383,15 @@ const i18n = {
   },
   ro: {
     pageTitle: "Locuri de muncă — peviitor.ro",
-    subtitle: "Scraper automat pentru locurile de muncă Endava Romania",
+    subtitle: "Scraper automat pentru locurile de muncă ENDAVA Romania",
     jobsLabel: "Locuri de muncă",
     verifiedLabel: "Verificate",
     aboutTitle: "Despre acest scraper",
-    f1: "Extrage locuri de muncă de pe SmartRecruiters API",
+    f1: "Extrage locuri de muncă de pe SmartRecruiters API (Endava)",
     f2: "Parsează cu fetch (JSON API)",
     f3: "Validează compania via ANAF",
     f4: "Verifică și elimină locuri de muncă expirate",
-    f5: "Salvează în SOLR pentru peviitor.ro",
+    f5: "Salvează în API-ul Peviitor",
     companyTitle: "Despre companie",
     runBtn: "Rulează Scraper",
     jobsTitle: "Locuri de muncă disponibile",

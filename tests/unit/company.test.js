@@ -42,37 +42,35 @@ function peviitorResponse(companies) {
   };
 }
 
-function solrResponse(numFound, docs) {
+function solrResponse(total, data) {
   return {
     ok: true,
-    json: async () => ({ response: { numFound, docs } })
+    json: async () => ({ total, data })
   };
 }
 
 const ENDAVA_ANAF_RECORD = {
   cui: 9533457,
   name: 'ENDAVA ROMANIA SRL',
-  address: 'Splaiul Unirii, 4, Bucuresti Sectorul 4, Bucuresti',
-  caenCode: '6201',
+  address: 'IANCU DE HUNEDOARA, 48, Bucureşti Sectorul 1, Bucureşti',
+  caenCode: '6220',
   inactive: false,
   vatRegistered: true,
   eFacturaRegistered: false,
-  headquartersAddress: { locality: 'Bucuresti Sectorul 4' }
+  headquartersAddress: { locality: 'Bucureşti Sectorul 1' }
 };
 
 describe('company.js', () => {
   let company;
 
   beforeAll(async () => {
-    process.env.SOLR_AUTH = 'test:test';
     fs.mkdirSync("tmp", { recursive: true });
     backupFile(COMPANY_JSON_PATH);
     backupFile(ROOT_COMPANY_JSON_PATH);
-    company = await import('../../company.js');
+    company = await import('../../scraper/company.js');
   });
 
   afterAll(() => {
-    delete process.env.SOLR_AUTH;
     restoreFile(COMPANY_JSON_PATH);
     restoreFile(ROOT_COMPANY_JSON_PATH);
   });
@@ -83,7 +81,7 @@ describe('company.js', () => {
   });
 
   describe('getCompanyData (no cache)', () => {
-    it('should fetch Endava via direct CIF lookup and return company data', async () => {
+    it('should fetch ENDAVA via direct CIF lookup and return company data', async () => {
       mockFetch.mockResolvedValueOnce(anafCompanyResponse(ENDAVA_ANAF_RECORD));
 
       const result = await company.getCompanyData();
@@ -156,7 +154,7 @@ describe('company.js', () => {
       expect(typeof result.existingJobsCount).toBe('number');
     });
 
-    // Epam e activă — testul inactive se rulează doar dacă firma e inactivă
+    // ENDAVA e activă — testul inactive se rulează doar dacă firma e inactivă
     if (ENDAVA_ANAF_RECORD.inactive) {
       it('should return inactive status when company is inactive', async () => {
         const inactiveRecord = { ...ENDAVA_ANAF_RECORD, inactive: true };

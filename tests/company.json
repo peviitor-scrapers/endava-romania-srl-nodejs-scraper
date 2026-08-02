@@ -1,7 +1,7 @@
 {
-  "validatedAt": "2026-06-28T08:27:57.000Z",
+  "validatedAt": "2026-08-01T10:00:00.000Z",
   "source": "ANAF",
-  "brand": "Endava",
+  "brand": "ENDAVA",
   "anaf": {
     "cui": 9533457,
     "name": "ENDAVA ROMANIA SRL",
@@ -25,6 +25,20 @@
     },
     "onrcStatusLabel": "Funcțiune",
     "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ"
+  },
+  "peviitor": {
+    "id": "9533457",
+    "company": "ENDAVA ROMANIA SRL",
+    "brand": "ENDAVA",
+    "status": "activ",
+    "website": [
+      "https://www.endava.com"
+    ],
+    "career": [
+      "https://www.endava.com/careers/jobs"
+    ],
+    "lastScraped": "2026-08-01",
+    "scraperFile": "endava.md"
   },
   "summary": {
     "company": "ENDAVA ROMANIA SRL",

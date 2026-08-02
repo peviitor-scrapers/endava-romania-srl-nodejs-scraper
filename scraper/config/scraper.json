@@ -1,0 +1,8 @@
+{
+  "apiBase": "https://api.smartrecruiters.com/v1/companies/Endava/postings?country=ro",
+  "apiCountryId": "ro",
+  "jobUrlPrefix": "https://jobs.smartrecruiters.com/Endava",
+  "pageSize": 100,
+  "maxPages": 10,
+  "timeout": 10000
+}

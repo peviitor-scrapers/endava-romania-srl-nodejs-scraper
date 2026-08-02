@@ -2,17 +2,15 @@
 
 Thank you for your interest in contributing!
 
-## Code Style
+## 📐 This Repo Is the Template
 
-- Use ES6+ modules (`type: module` in `package.json`)
-- Add tests for new features in the matching `tests/<level>/` folder
-- Ensure all tests pass before submitting PR
-- Reference a GitHub issue in every commit
+This repo is the **reference implementation** for all Node.js scrapers in the peviitor.ro ecosystem. Other scrapers are derived from it.
+
+For instructions on deriving a new scraper from this template, see the [AI-DERIVATION-GUIDE.md](AI-DERIVATION-GUIDE.md). The AI-DERIVATION-GUIDE.md is the consolidated playbook covering every step plus all known pitfalls from past derivations.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/endava-romania-srl-nodejs-scraper.git
 npm install
 npm test
 ```
@@ -23,7 +21,6 @@ Open a [GitHub Issue](https://github.com/sebiboga/endava-romania-srl-nodejs-scra
 - Clear description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
-- Environment details (Node version, OS)
 
 ## License
 
