@@ -2,11 +2,9 @@
 
 Thank you for your interest in contributing!
 
-## 📐 This Repo Is the Template
+## 🌱 This Repo Is a Derived Scraper
 
-This repo is the **reference implementation** for all Node.js scrapers in the peviitor.ro ecosystem. Other scrapers are derived from it.
-
-For instructions on deriving a new scraper from this template, see the [AI-DERIVATION-GUIDE.md](AI-DERIVATION-GUIDE.md). The AI-DERIVATION-GUIDE.md is the consolidated playbook covering every step plus all known pitfalls from past derivations.
+This scraper is derived from the **EPAM template** ([epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper)), the reference implementation for all Node.js scrapers in the peviitor.ro ecosystem. The derivation guide lives in the template repo.
 
 ## Development Setup
 

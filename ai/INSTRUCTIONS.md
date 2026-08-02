@@ -39,7 +39,7 @@ When working on this scraper:
 
 - **Node.js & JavaScript** - For scraping and data extraction
 - **Peviitor API** - For data storage and retrieval (api.peviitor.ro)
-- **Claude Code** - For development
+- **AI coding agents (opencode, Claude Code)** - For development
 
 ## Workflow Steps
 
@@ -148,7 +148,7 @@ generateJobsMarkdown() → docs/jobs.md
 - **CUIScan**: `https://cuiscan.ro/api.php?action=company&cui=CIF` - Company details fallback
 - **CUIFirma Search**: `https://cuifirma.ro/api/search?q=BRAND` - Search fallback
 - **Peviitor API**: `https://api.peviitor.ro/v1/` — all job and company operations go through this API
-- **ENDAVA Careers API**: `https://jobs.smartrecruiters.com/Endava/api/jobs/v2/search/careers-i18n` — GET with query params (country, page, size)
+- **SmartRecruiters API (Endava)**: `https://api.smartrecruiters.com/v1/companies/Endava/postings?country=ro` — GET with query params (country, limit, offset). Job pages: `https://jobs.smartrecruiters.com/Endava/<postingId>`
 
 ## Rate Limiting & Politeness
 
@@ -171,7 +171,7 @@ Derived scrapers should keep these defaults unless the target site explicitly pe
 | `GITHUB_REPOSITORY` | Used by consistency tests — format: `owner/repo` |
 | `GITHUB_TOKEN` | GitHub API token for consistency tests |
 
-`dotenv` loads `.env.local` automatically at startup — set variables there for local runs. Never commit `.env.local`.
+`dotenv` is loaded at startup, but `.env.local` is **not used** — all operations go through the Peviitor API (no direct SOLR access). Consistency tests need `GITHUB_REPOSITORY` (format: `owner/repo`) and `GITHUB_TOKEN`. Never commit `.env.local`.
 
 ## Standalone Commands
 

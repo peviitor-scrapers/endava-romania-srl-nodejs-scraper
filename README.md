@@ -13,7 +13,7 @@
 
 **job_seeker_ro_spider** — un scraper pentru job-urile Endava din România. Extrage anunțurile de pe [Endava Careers](https://jobs.smartrecruiters.com/Endava) și le publică în [peviitor.ro](https://peviitor.ro) prin API-ul Peviitor.
 
-> **🌱 Template repo.** Acest repo este **implementarea de referință** pentru toate scraper-ele Node.js din ecosistemul peviitor.ro. Alte scraper-e sunt derivate din acesta. Vezi [ai/AI-DERIVATION-GUIDE.md](ai/AI-DERIVATION-GUIDE.md).
+> **🌱 Derived scraper.** Acest repo este un scraper derivat din [epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper) — template-ul de referință pentru toate scraper-ele Node.js din ecosistemul peviitor.ro.
 
 ## Overview
 

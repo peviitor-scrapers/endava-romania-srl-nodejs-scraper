@@ -3,8 +3,8 @@
 ## Project
 ENDAVA scraper for peviitor.ro (Node.js, ESM, Jest)
 
-## 📐 This Repo Is a Template
-This repo is the **reference implementation** for all Node.js scrapers in the peviitor.ro ecosystem. Other scrapers are derived from it.
+## 🌱 This Repo Is a Derived Scraper
+This scraper is derived from the **EPAM template** ([epam-systems-international-srl-nodejs-scraper](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper)), the reference implementation for all Node.js scrapers in the peviitor.ro ecosystem.
 
 When making changes:
 - **All company-specific identity lives in `scraper/config/company.json`** (id, company, brand, URLs, API params). Read from `scraper/config/company.js` in Node code, or via `jq` in workflows. Never hardcode in source files.
