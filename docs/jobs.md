@@ -7,14 +7,86 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | București |
+| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-03 |
+| Last Scraped | 2026-08-04 |
 
-## Current Job Listings (96)
+## Current Job Listings (100)
 
-_Generated: 2026-08-03T08:58:23.628Z_
+_Generated: 2026-08-04T08:14:56.141Z_
+
+### HR AI Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141428389](https://jobs.smartrecruiters.com/Endava/744000141428389)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, human resources
+- **Status:** scraped
+
+### AP Manager
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141426995](https://jobs.smartrecruiters.com/Endava/744000141426995)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** business support, finance
+- **Status:** scraped
+
+### HR AI Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141426940](https://jobs.smartrecruiters.com/Endava/744000141426940)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, human resources
+- **Status:** scraped
+
+### HR AI Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141266757](https://jobs.smartrecruiters.com/Endava/744000141266757)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** business support, human resources
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141219599](https://jobs.smartrecruiters.com/Endava/744000141219599)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218360](https://jobs.smartrecruiters.com/Endava/744000141218360)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218027](https://jobs.smartrecruiters.com/Endava/744000141218027)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218022](https://jobs.smartrecruiters.com/Endava/744000141218022)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141215451](https://jobs.smartrecruiters.com/Endava/744000141215451)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Business Analyst
 
@@ -293,46 +365,6 @@ _Generated: 2026-08-03T08:58:23.628Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000133531102](https://jobs.smartrecruiters.com/Endava/744000133531102)
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133023400](https://jobs.smartrecruiters.com/Endava/744000133023400)
-- **Work Mode:** on-site
-- **Location:** Brașov
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133022705](https://jobs.smartrecruiters.com/Endava/744000133022705)
-- **Work Mode:** on-site
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133020715](https://jobs.smartrecruiters.com/Endava/744000133020715)
-- **Work Mode:** on-site
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133021700](https://jobs.smartrecruiters.com/Endava/744000133021700)
-- **Work Mode:** on-site
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000132999059](https://jobs.smartrecruiters.com/Endava/744000132999059)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
