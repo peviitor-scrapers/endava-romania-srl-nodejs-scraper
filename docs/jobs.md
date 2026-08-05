@@ -10,11 +10,35 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-04 |
+| Last Scraped | 2026-08-05 |
 
-## Current Job Listings (100)
+## Current Job Listings (101)
 
-_Generated: 2026-08-04T08:14:56.141Z_
+_Generated: 2026-08-05T08:13:25.011Z_
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141652286](https://jobs.smartrecruiters.com/Endava/744000141652286)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior (Power)BI Dev
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141652226](https://jobs.smartrecruiters.com/Endava/744000141652226)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141447260](https://jobs.smartrecruiters.com/Endava/744000141447260)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### HR AI Lead
 
@@ -61,22 +85,6 @@ _Generated: 2026-08-04T08:14:56.141Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218360](https://jobs.smartrecruiters.com/Endava/744000141218360)
 - **Work Mode:** hybrid
 - **Location:** Brașov
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218027](https://jobs.smartrecruiters.com/Endava/744000141218027)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior (Power)BI Dev
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141218022](https://jobs.smartrecruiters.com/Endava/744000141218022)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
