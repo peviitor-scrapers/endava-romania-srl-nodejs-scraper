@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-05 |
+| Last Scraped | 2026-08-06 |
 
 ## Current Job Listings (101)
 
-_Generated: 2026-08-05T08:13:25.011Z_
+_Generated: 2026-08-06T08:12:21.423Z_
+
+### Senior Business Analyst
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141663550](https://jobs.smartrecruiters.com/Endava/744000141663550)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, analyst
+- **Status:** scraped
 
 ### Senior (Power)BI Dev
 
@@ -611,14 +619,6 @@ _Generated: 2026-08-05T08:13:25.011Z_
 ### Senior Fullstack (Java+React) Developer
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000109247642](https://jobs.smartrecruiters.com/Endava/744000109247642)
-- **Work Mode:** hybrid
-- **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Java Developer Consultant 
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000109248167](https://jobs.smartrecruiters.com/Endava/744000109248167)
 - **Work Mode:** hybrid
 - **Location:** Sibiu
 - **Tags:** client delivery, engineering
