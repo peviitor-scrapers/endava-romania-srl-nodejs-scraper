@@ -7,14 +7,14 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
+| Location | București |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-06 |
+| Last Scraped | 2026-08-07 |
 
-## Current Job Listings (101)
+## Current Job Listings (99)
 
-_Generated: 2026-08-06T08:12:21.423Z_
+_Generated: 2026-08-07T06:58:15.600Z_
 
 ### Senior Business Analyst
 
@@ -310,14 +310,6 @@ _Generated: 2026-08-06T08:12:21.423Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Finance-Procurement Process Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000136819924](https://jobs.smartrecruiters.com/Endava/744000136819924)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** business support, finance
 - **Status:** scraped
 
 ### Solution Architect
@@ -621,14 +613,6 @@ _Generated: 2026-08-06T08:12:21.423Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000109247642](https://jobs.smartrecruiters.com/Endava/744000109247642)
 - **Work Mode:** hybrid
 - **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Salesforce Data 360 (Data Cloud) Consultant
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000108142745](https://jobs.smartrecruiters.com/Endava/744000108142745)
-- **Work Mode:** on-site
-- **Location:** Bucharest
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
