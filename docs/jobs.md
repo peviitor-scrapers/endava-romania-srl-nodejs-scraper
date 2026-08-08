@@ -7,14 +7,14 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | București |
+| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-07 |
+| Last Scraped | 2026-08-08 |
 
-## Current Job Listings (99)
+## Current Job Listings (95)
 
-_Generated: 2026-08-07T06:58:15.600Z_
+_Generated: 2026-08-08T06:31:06.293Z_
 
 ### Senior Business Analyst
 
@@ -160,22 +160,6 @@ _Generated: 2026-08-07T06:58:15.600Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior Product Architect
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138600330](https://jobs.smartrecruiters.com/Endava/744000138600330)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
-- **Status:** scraped
-
-### Senior Product Architect
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138601609](https://jobs.smartrecruiters.com/Endava/744000138601609)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** business support, engineering
-- **Status:** scraped
-
 ### Senior Network & Microsoft Security Engineer 
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000138355701](https://jobs.smartrecruiters.com/Endava/744000138355701)
@@ -198,14 +182,6 @@ _Generated: 2026-08-07T06:58:15.600Z_
 - **Work Mode:** hybrid
 - **Location:** Craiova
 - **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Senior Product Architect
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137903302](https://jobs.smartrecruiters.com/Endava/744000137903302)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Typescript Automation Tester
@@ -414,14 +390,6 @@ _Generated: 2026-08-07T06:58:15.600Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Head of Engineering | Business Systems 
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000129983173](https://jobs.smartrecruiters.com/Endava/744000129983173)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Network Security Engineer
