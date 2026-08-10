@@ -7,14 +7,14 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | București |
+| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-09 |
+| Last Scraped | 2026-08-10 |
 
 ## Current Job Listings (95)
 
-_Generated: 2026-08-09T06:35:48.685Z_
+_Generated: 2026-08-10T07:06:11.764Z_
 
 ### Senior Business Analyst
 
