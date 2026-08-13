@@ -10,11 +10,35 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-12 |
+| Last Scraped | 2026-08-13 |
 
-## Current Job Listings (95)
+## Current Job Listings (96)
 
-_Generated: 2026-08-12T07:04:56.332Z_
+_Generated: 2026-08-13T07:08:56.508Z_
+
+### Senior Data Specialist (Oracle)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143098900](https://jobs.smartrecruiters.com/Endava/744000143098900)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Specialist (Oracle)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143099819](https://jobs.smartrecruiters.com/Endava/744000143099819)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Specialist (Oracle)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143087002](https://jobs.smartrecruiters.com/Endava/744000143087002)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Typescript Automation Tester
 
@@ -520,14 +544,6 @@ _Generated: 2026-08-12T07:04:56.332Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior Fullstack (NET+React) Lead Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000110161485](https://jobs.smartrecruiters.com/Endava/744000110161485)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Senior Fullstack (Java+React) Lead Developer
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000110160825](https://jobs.smartrecruiters.com/Endava/744000110160825)
@@ -763,14 +779,6 @@ _Generated: 2026-08-12T07:04:56.332Z_
 ### Senior Data Engineer (Python, AWS)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000074254256](https://jobs.smartrecruiters.com/Endava/744000074254256)
-- **Work Mode:** on-site
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Python Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000066328905](https://jobs.smartrecruiters.com/Endava/744000066328905)
 - **Work Mode:** on-site
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
