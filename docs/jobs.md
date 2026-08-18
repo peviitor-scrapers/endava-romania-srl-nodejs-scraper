@@ -7,14 +7,30 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
+| Location | București |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-17 |
+| Last Scraped | 2026-08-18 |
 
 ## Current Job Listings (90)
 
-_Generated: 2026-08-17T06:29:51.265Z_
+_Generated: 2026-08-18T06:22:29.011Z_
+
+### Senior Full Stack Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143771309](https://jobs.smartrecruiters.com/Endava/744000143771309)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143767939](https://jobs.smartrecruiters.com/Endava/744000143767939)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Java Developer
 
@@ -309,14 +325,6 @@ _Generated: 2026-08-17T06:29:51.265Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000137451649](https://jobs.smartrecruiters.com/Endava/744000137451649)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Full Stack Software Engineer (.Net with React)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137105589](https://jobs.smartrecruiters.com/Endava/744000137105589)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
@@ -653,14 +661,6 @@ _Generated: 2026-08-17T06:29:51.265Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000105590355](https://jobs.smartrecruiters.com/Endava/744000105590355)
 - **Work Mode:** on-site
 - **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior .NET Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000104908208](https://jobs.smartrecruiters.com/Endava/744000104908208)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
