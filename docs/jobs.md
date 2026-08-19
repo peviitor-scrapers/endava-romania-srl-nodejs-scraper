@@ -7,14 +7,62 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | București |
+| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-18 |
+| Last Scraped | 2026-08-19 |
 
-## Current Job Listings (90)
+## Current Job Listings (96)
 
-_Generated: 2026-08-18T06:22:29.011Z_
+_Generated: 2026-08-19T06:23:16.368Z_
+
+### Senior .NET Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144092049](https://jobs.smartrecruiters.com/Endava/744000144092049)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Java Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144089407](https://jobs.smartrecruiters.com/Endava/744000144089407)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144077529](https://jobs.smartrecruiters.com/Endava/744000144077529)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Java Developer Consultant 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144048690](https://jobs.smartrecruiters.com/Endava/744000144048690)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior .NET Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144045109](https://jobs.smartrecruiters.com/Endava/744000144045109)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Development Lead (.NET)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144044339](https://jobs.smartrecruiters.com/Endava/744000144044339)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Full Stack Development Consultant
 
