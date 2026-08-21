@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-20 |
+| Last Scraped | 2026-08-21 |
 
-## Current Job Listings (105)
+## Current Job Listings (104)
 
-_Generated: 2026-08-20T06:24:12.468Z_
+_Generated: 2026-08-21T06:24:36.977Z_
 
 ### Senior DevOps Engineer with Azure
 
@@ -43,14 +43,6 @@ _Generated: 2026-08-20T06:24:12.468Z_
 ### Senior DevOps Engineer with Azure
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000144344349](https://jobs.smartrecruiters.com/Endava/744000144344349)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Junior Low-Code Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144339399](https://jobs.smartrecruiters.com/Endava/744000144339399)
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
