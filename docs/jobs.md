@@ -10,11 +10,11 @@
 | Location | București |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-23 |
+| Last Scraped | 2026-08-24 |
 
 ## Current Job Listings (104)
 
-_Generated: 2026-08-23T06:20:35.994Z_
+_Generated: 2026-08-24T06:33:26.246Z_
 
 ### Senior DevOps Engineer with Azure
 
