@@ -10,11 +10,19 @@
 | Location | București |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-24 |
+| Last Scraped | 2026-08-25 |
 
-## Current Job Listings (104)
+## Current Job Listings (105)
 
-_Generated: 2026-08-24T06:33:26.246Z_
+_Generated: 2026-08-25T06:25:11.008Z_
+
+### Organisation Design & Job Architecture Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145277335](https://jobs.smartrecruiters.com/Endava/744000145277335)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, human resources
+- **Status:** scraped
 
 ### Senior DevOps Engineer with Azure
 
