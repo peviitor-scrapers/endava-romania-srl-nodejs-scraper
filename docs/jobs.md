@@ -7,14 +7,86 @@
 | CIF | 9533457 |
 | Brand | ENDAVA |
 | Status | activ |
-| Location | București |
+| Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-25 |
+| Last Scraped | 2026-08-26 |
 
-## Current Job Listings (105)
+## Current Job Listings (111)
 
-_Generated: 2026-08-25T06:25:11.008Z_
+_Generated: 2026-08-26T06:26:39.446Z_
+
+### Junior People Operations Trainee
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145532759](https://jobs.smartrecruiters.com/Endava/744000145532759)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** business support, human resources
+- **Status:** scraped
+
+### Sales Incentive Operations Lead
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145459030](https://jobs.smartrecruiters.com/Endava/744000145459030)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, business development
+- **Status:** scraped
+
+### Revenue Enablement Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145461809](https://jobs.smartrecruiters.com/Endava/744000145461809)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, training
+- **Status:** scraped
+
+### Senior DevOps Consultant with GCP
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145455691](https://jobs.smartrecruiters.com/Endava/744000145455691)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Engineer with GCP
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145460219](https://jobs.smartrecruiters.com/Endava/744000145460219)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior DevOps Consultant with GCP
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145459563](https://jobs.smartrecruiters.com/Endava/744000145459563)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Engineer with GCP
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145459497](https://jobs.smartrecruiters.com/Endava/744000145459497)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior MS Dynamics Developer (Microsoft Power Platform)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145458999](https://jobs.smartrecruiters.com/Endava/744000145458999)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Cybersecurity Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145432459](https://jobs.smartrecruiters.com/Endava/744000145432459)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Organisation Design & Job Architecture Consultant
 
@@ -384,14 +456,6 @@ _Generated: 2026-08-25T06:25:11.008Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior Network & Microsoft Security Engineer 
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000138355701](https://jobs.smartrecruiters.com/Endava/744000138355701)
-- **Work Mode:** on-site
-- **Location:** Bucharest
-- **Tags:** client delivery, customer service
-- **Status:** scraped
-
 ### Senior Java Developer
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000138258918](https://jobs.smartrecruiters.com/Endava/744000138258918)
@@ -542,14 +606,6 @@ _Generated: 2026-08-25T06:25:11.008Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Network Security Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000128426986](https://jobs.smartrecruiters.com/Endava/744000128426986)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, customer service
 - **Status:** scraped
 
 ### Full Stack Software Engineer (Java with React)
@@ -822,14 +878,6 @@ _Generated: 2026-08-25T06:25:11.008Z_
 - **Work Mode:** on-site
 - **Location:** Bucharest
 - **Tags:** client delivery, product management
-- **Status:** scraped
-
-### Senior MS Dynamics Developer (Microsoft Power Platform)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000094016565](https://jobs.smartrecruiters.com/Endava/744000094016565)
-- **Work Mode:** on-site
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
 - **Status:** scraped
 
 ### Senior Data Engineer (Python, AWS)
