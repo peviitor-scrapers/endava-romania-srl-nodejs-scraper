@@ -10,18 +10,58 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-26 |
+| Last Scraped | 2026-08-27 |
 
-## Current Job Listings (111)
+## Current Job Listings (116)
 
-_Generated: 2026-08-26T06:26:39.446Z_
+_Generated: 2026-08-27T16:59:38.795Z_
 
-### Junior People Operations Trainee
+### SOX & Controls Manager
 
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145532759](https://jobs.smartrecruiters.com/Endava/744000145532759)
-- **Work Mode:** on-site
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145955849](https://jobs.smartrecruiters.com/Endava/744000145955849)
+- **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
-- **Tags:** business support, human resources
+- **Tags:** business support, finance
+- **Status:** scraped
+
+### DevOps Architect with GCP
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145955099](https://jobs.smartrecruiters.com/Endava/744000145955099)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Business Platforms Internship Program
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145749871](https://jobs.smartrecruiters.com/Endava/744000145749871)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Copy of Senior Field Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145750889](https://jobs.smartrecruiters.com/Endava/744000145750889)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Java Developer Consultant 
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145686650](https://jobs.smartrecruiters.com/Endava/744000145686650)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Buyer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145666149](https://jobs.smartrecruiters.com/Endava/744000145666149)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** business support, finance
 - **Status:** scraped
 
 ### Sales Incentive Operations Lead
