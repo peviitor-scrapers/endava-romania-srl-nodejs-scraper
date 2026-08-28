@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-27 |
+| Last Scraped | 2026-08-28 |
 
 ## Current Job Listings (116)
 
-_Generated: 2026-08-27T16:59:38.795Z_
+_Generated: 2026-08-28T17:49:04.902Z_
 
 ### SOX & Controls Manager
 
