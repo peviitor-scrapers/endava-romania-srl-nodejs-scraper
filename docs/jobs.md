@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-08-31 |
+| Last Scraped | 2026-09-01 |
 
-## Current Job Listings (116)
+## Current Job Listings (114)
 
-_Generated: 2026-08-31T12:01:20.154Z_
+_Generated: 2026-09-01T10:40:00.900Z_
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000146652279](https://jobs.smartrecruiters.com/Endava/744000146652279)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### SOX & Controls Manager
 
@@ -27,14 +35,6 @@ _Generated: 2026-08-31T12:01:20.154Z_
 ### DevOps Architect with GCP
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000145955099](https://jobs.smartrecruiters.com/Endava/744000145955099)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Business Platforms Internship Program
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145749871](https://jobs.smartrecruiters.com/Endava/744000145749871)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
@@ -688,14 +688,6 @@ _Generated: 2026-08-31T12:01:20.154Z_
 - **Tags:** client delivery, quality assurance
 - **Status:** scraped
 
-### Lead Cyber Security Analyst 
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000120968399](https://jobs.smartrecruiters.com/Endava/744000120968399)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, information technology
-- **Status:** scraped
-
 ### Salesforce Solution Architect
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000118178507](https://jobs.smartrecruiters.com/Endava/744000118178507)
@@ -878,14 +870,6 @@ _Generated: 2026-08-31T12:01:20.154Z_
 - **Work Mode:** on-site
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Lead Cyber Security Analyst 
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000103681696](https://jobs.smartrecruiters.com/Endava/744000103681696)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, information technology
 - **Status:** scraped
 
 ### Data Architect
