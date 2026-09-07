@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-06 |
+| Last Scraped | 2026-09-07 |
 
-## Current Job Listings (115)
+## Current Job Listings (107)
 
-_Generated: 2026-09-06T09:49:32.972Z_
+_Generated: 2026-09-07T10:55:21.795Z_
 
 ### Java Developer Consultant 
 
@@ -22,14 +22,6 @@ _Generated: 2026-09-06T09:49:32.972Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Junior Automation Tester – AI-Augmented Testing Programme
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000147198459](https://jobs.smartrecruiters.com/Endava/744000147198459)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, quality assurance
 - **Status:** scraped
 
 ### Senior Field Marketing Specialist
@@ -318,62 +310,6 @@ _Generated: 2026-09-06T09:49:32.972Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142811739](https://jobs.smartrecruiters.com/Endava/744000142811739)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142811569](https://jobs.smartrecruiters.com/Endava/744000142811569)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142810061](https://jobs.smartrecruiters.com/Endava/744000142810061)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142809490](https://jobs.smartrecruiters.com/Endava/744000142809490)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142810929](https://jobs.smartrecruiters.com/Endava/744000142810929)
-- **Work Mode:** hybrid
-- **Location:** Craiova
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142810639](https://jobs.smartrecruiters.com/Endava/744000142810639)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
-
-### Typescript Automation Tester
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000142810359](https://jobs.smartrecruiters.com/Endava/744000142810359)
-- **Work Mode:** hybrid
-- **Location:** Brașov
-- **Tags:** client delivery, quality assurance
 - **Status:** scraped
 
 ### Senior Business Analyst
