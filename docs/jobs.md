@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-14 |
+| Last Scraped | 2026-09-15 |
 
 ## Current Job Listings (106)
 
-_Generated: 2026-09-14T11:07:43.108Z_
+_Generated: 2026-09-15T10:36:25.470Z_
+
+### Senior Field Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000149542830](https://jobs.smartrecruiters.com/Endava/744000149542830)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
 
 ### Senior Java Developer
 
@@ -38,14 +46,6 @@ _Generated: 2026-09-14T11:07:43.108Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Field Marketing Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000147192309](https://jobs.smartrecruiters.com/Endava/744000147192309)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Senior Java Developer
