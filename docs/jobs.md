@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-17 |
+| Last Scraped | 2026-09-18 |
 
 ## Current Job Listings (105)
 
-_Generated: 2026-09-17T10:36:25.658Z_
+_Generated: 2026-09-18T10:10:56.562Z_
 
 ### Senior Field Marketing Specialist
 
