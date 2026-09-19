@@ -10,11 +10,43 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-18 |
+| Last Scraped | 2026-09-19 |
 
-## Current Job Listings (105)
+## Current Job Listings (102)
 
-_Generated: 2026-09-18T10:10:56.562Z_
+_Generated: 2026-09-19T09:51:28.313Z_
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150359745](https://jobs.smartrecruiters.com/Endava/744000150359745)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150364439](https://jobs.smartrecruiters.com/Endava/744000150364439)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150364359](https://jobs.smartrecruiters.com/Endava/744000150364359)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Microsoft Fabric)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150364169](https://jobs.smartrecruiters.com/Endava/744000150364169)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Field Marketing Specialist
 
@@ -352,30 +384,6 @@ _Generated: 2026-09-18T10:10:56.562Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### HR AI Lead
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141428389](https://jobs.smartrecruiters.com/Endava/744000141428389)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, human resources
-- **Status:** scraped
-
-### HR AI Lead
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141426940](https://jobs.smartrecruiters.com/Endava/744000141426940)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, human resources
-- **Status:** scraped
-
-### HR AI Lead
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000141266757](https://jobs.smartrecruiters.com/Endava/744000141266757)
-- **Work Mode:** on-site
-- **Location:** Cluj-Napoca
-- **Tags:** business support, human resources
-- **Status:** scraped
-
 ### Senior (Power)BI Dev
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000141219599](https://jobs.smartrecruiters.com/Endava/744000141219599)
@@ -406,38 +414,6 @@ _Generated: 2026-09-18T10:10:56.562Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, analyst
-- **Status:** scraped
-
-### Senior Data Engineer (Microsoft Fabric)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274629](https://jobs.smartrecruiters.com/Endava/744000140274629)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Microsoft Fabric)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274339](https://jobs.smartrecruiters.com/Endava/744000140274339)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Microsoft Fabric)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140274039](https://jobs.smartrecruiters.com/Endava/744000140274039)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Microsoft Fabric)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000140273909](https://jobs.smartrecruiters.com/Endava/744000140273909)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
 - **Status:** scraped
 
 ### Senior Data Science/AI Specialist
