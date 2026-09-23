@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-22 |
+| Last Scraped | 2026-09-23 |
 
-## Current Job Listings (103)
+## Current Job Listings (105)
 
-_Generated: 2026-09-22T10:28:36.013Z_
+_Generated: 2026-09-23T10:23:59.058Z_
+
+### Senior Appian Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151300944](https://jobs.smartrecruiters.com/Endava/744000151300944)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Appian Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151301960](https://jobs.smartrecruiters.com/Endava/744000151301960)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Organisation Design & Job Architecture Consultant
 
