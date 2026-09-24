@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-23 |
+| Last Scraped | 2026-09-24 |
 
-## Current Job Listings (105)
+## Current Job Listings (103)
 
-_Generated: 2026-09-23T10:23:59.058Z_
+_Generated: 2026-09-24T10:40:09.550Z_
 
 ### Senior Appian Developer
 
@@ -182,14 +182,6 @@ _Generated: 2026-09-23T10:23:59.058Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** business support, finance
-- **Status:** scraped
-
-### Sales Incentive Operations Lead
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145459030](https://jobs.smartrecruiters.com/Endava/744000145459030)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, business development
 - **Status:** scraped
 
 ### Revenue Enablement Specialist
@@ -595,14 +587,6 @@ _Generated: 2026-09-23T10:23:59.058Z_
 ### Senior Microsoft Dynamics/Power Platform Consultant
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000126654212](https://jobs.smartrecruiters.com/Endava/744000126654212)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Salesforce Marketing Cloud Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000126054429](https://jobs.smartrecruiters.com/Endava/744000126054429)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
