@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-24 |
+| Last Scraped | 2026-09-25 |
 
 ## Current Job Listings (103)
 
-_Generated: 2026-09-24T10:40:09.550Z_
+_Generated: 2026-09-25T10:43:59.878Z_
+
+### Senior Python Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151776240](https://jobs.smartrecruiters.com/Endava/744000151776240)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151773719](https://jobs.smartrecruiters.com/Endava/744000151773719)
+- **Work Mode:** hybrid
+- **Location:** Craiova
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Appian Developer
 
@@ -158,14 +174,6 @@ _Generated: 2026-09-24T10:40:09.550Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### SOX & Controls Manager
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145955849](https://jobs.smartrecruiters.com/Endava/744000145955849)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** business support, finance
 - **Status:** scraped
 
 ### Java Developer Consultant 
@@ -454,14 +462,6 @@ _Generated: 2026-09-24T10:40:09.550Z_
 - **Work Mode:** on-site
 - **Location:** Craiova
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Onsite Support Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000137472695](https://jobs.smartrecruiters.com/Endava/744000137472695)
-- **Work Mode:** on-site
-- **Location:** Bucharest
-- **Tags:** business support, information technology
 - **Status:** scraped
 
 ### Senior Data Analyst
