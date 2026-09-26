@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-25 |
+| Last Scraped | 2026-09-26 |
 
-## Current Job Listings (103)
+## Current Job Listings (105)
 
-_Generated: 2026-09-25T10:43:59.878Z_
+_Generated: 2026-09-26T10:26:18.619Z_
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151830489](https://jobs.smartrecruiters.com/Endava/744000151830489)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Python Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151829527](https://jobs.smartrecruiters.com/Endava/744000151829527)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Python Developer
 
