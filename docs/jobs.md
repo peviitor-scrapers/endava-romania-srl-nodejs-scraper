@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-27 |
+| Last Scraped | 2026-09-28 |
 
-## Current Job Listings (105)
+## Current Job Listings (104)
 
-_Generated: 2026-09-27T10:57:16.086Z_
+_Generated: 2026-09-28T12:13:14.891Z_
 
 ### Senior C Developer
 
@@ -206,14 +206,6 @@ _Generated: 2026-09-27T10:57:16.086Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** business support, finance
-- **Status:** scraped
-
-### Revenue Enablement Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145461809](https://jobs.smartrecruiters.com/Endava/744000145461809)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, training
 - **Status:** scraped
 
 ### Senior MS Dynamics Developer (Microsoft Power Platform)
