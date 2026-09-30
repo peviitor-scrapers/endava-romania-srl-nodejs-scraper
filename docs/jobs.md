@@ -10,11 +10,43 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-29 |
+| Last Scraped | 2026-09-30 |
 
-## Current Job Listings (103)
+## Current Job Listings (102)
 
-_Generated: 2026-09-29T11:43:14.586Z_
+_Generated: 2026-09-30T11:30:02.068Z_
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152630335](https://jobs.smartrecruiters.com/Endava/744000152630335)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Go Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152619509](https://jobs.smartrecruiters.com/Endava/744000152619509)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Network Security Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152613189](https://jobs.smartrecruiters.com/Endava/744000152613189)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152604409](https://jobs.smartrecruiters.com/Endava/744000152604409)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior C Developer
 
@@ -213,38 +245,6 @@ _Generated: 2026-09-29T11:43:14.586Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000145432459](https://jobs.smartrecruiters.com/Endava/744000145432459)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Engineer with Azure
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144344244](https://jobs.smartrecruiters.com/Endava/744000144344244)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Engineer with Azure
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144343315](https://jobs.smartrecruiters.com/Endava/744000144343315)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Engineer with Azure
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144344639](https://jobs.smartrecruiters.com/Endava/744000144344639)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Engineer with Azure
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144344349](https://jobs.smartrecruiters.com/Endava/744000144344349)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
@@ -621,14 +621,6 @@ _Generated: 2026-09-29T11:43:14.586Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000115633775](https://jobs.smartrecruiters.com/Endava/744000115633775)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Development Consultant (Python)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000111062665](https://jobs.smartrecruiters.com/Endava/744000111062665)
-- **Work Mode:** hybrid
-- **Location:** Iași
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
