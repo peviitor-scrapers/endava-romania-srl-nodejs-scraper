@@ -10,11 +10,51 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-09-30 |
+| Last Scraped | 2026-10-01 |
 
-## Current Job Listings (102)
+## Current Job Listings (106)
 
-_Generated: 2026-09-30T11:30:02.068Z_
+_Generated: 2026-10-01T11:58:18.048Z_
+
+### Senior Field Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152718479](https://jobs.smartrecruiters.com/Endava/744000152718479)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
+
+### Senior Developer (Python)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152665139](https://jobs.smartrecruiters.com/Endava/744000152665139)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152664647](https://jobs.smartrecruiters.com/Endava/744000152664647)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152664779](https://jobs.smartrecruiters.com/Endava/744000152664779)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152662590](https://jobs.smartrecruiters.com/Endava/744000152662590)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior C Developer
 
@@ -182,14 +222,6 @@ _Generated: 2026-09-30T11:30:02.068Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Field Marketing Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000149542830](https://jobs.smartrecruiters.com/Endava/744000149542830)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Senior Java Developer
