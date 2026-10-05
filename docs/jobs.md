@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-04 |
+| Last Scraped | 2026-10-05 |
 
 ## Current Job Listings (75)
 
-_Generated: 2026-10-04T11:27:04.472Z_
+_Generated: 2026-10-05T12:53:14.742Z_
+
+### Senior C Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000153412925](https://jobs.smartrecruiters.com/Endava/744000153412925)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Commercial Lawyer
 
@@ -219,14 +227,6 @@ _Generated: 2026-10-04T11:27:04.472Z_
 ### Senior MS Dynamics Developer (Microsoft Power Platform)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000145458999](https://jobs.smartrecruiters.com/Endava/744000145458999)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Cybersecurity Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145432459](https://jobs.smartrecruiters.com/Endava/744000145432459)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
