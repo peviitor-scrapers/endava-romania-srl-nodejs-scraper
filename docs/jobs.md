@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-06 |
+| Last Scraped | 2026-10-07 |
 
-## Current Job Listings (69)
+## Current Job Listings (66)
 
-_Generated: 2026-10-06T12:20:41.501Z_
+_Generated: 2026-10-07T12:13:01.405Z_
 
 ### Senior C Developer
 
@@ -269,30 +269,6 @@ _Generated: 2026-10-06T12:20:41.501Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000144045109](https://jobs.smartrecruiters.com/Endava/744000144045109)
 - **Work Mode:** hybrid
 - **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Specialist (Oracle)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143098900](https://jobs.smartrecruiters.com/Endava/744000143098900)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Specialist (Oracle)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143099819](https://jobs.smartrecruiters.com/Endava/744000143099819)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Specialist (Oracle)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000143087002](https://jobs.smartrecruiters.com/Endava/744000143087002)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
