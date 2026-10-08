@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-07 |
+| Last Scraped | 2026-10-08 |
 
-## Current Job Listings (66)
+## Current Job Listings (64)
 
-_Generated: 2026-10-07T12:13:01.405Z_
+_Generated: 2026-10-08T12:22:57.935Z_
 
 ### Senior C Developer
 
@@ -264,14 +264,6 @@ _Generated: 2026-10-07T12:13:01.405Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior .NET Development Consultant
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000144045109](https://jobs.smartrecruiters.com/Endava/744000144045109)
-- **Work Mode:** hybrid
-- **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Senior (Power)BI Dev
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000141652286](https://jobs.smartrecruiters.com/Endava/744000141652286)
@@ -411,14 +403,6 @@ _Generated: 2026-10-07T12:13:01.405Z_
 ### Salesforce Solution Architect
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000118178507](https://jobs.smartrecruiters.com/Endava/744000118178507)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevSecOps Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000115633775](https://jobs.smartrecruiters.com/Endava/744000115633775)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
