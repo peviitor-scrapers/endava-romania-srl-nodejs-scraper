@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-08 |
+| Last Scraped | 2026-10-09 |
 
-## Current Job Listings (64)
+## Current Job Listings (63)
 
-_Generated: 2026-10-08T12:22:57.935Z_
+_Generated: 2026-10-09T12:12:52.749Z_
 
 ### Senior C Developer
 
@@ -46,14 +46,6 @@ _Generated: 2026-10-08T12:22:57.935Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** business support, legal
-- **Status:** scraped
-
-### Senior Field Marketing Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152718479](https://jobs.smartrecruiters.com/Endava/744000152718479)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Senior Developer (Python)
