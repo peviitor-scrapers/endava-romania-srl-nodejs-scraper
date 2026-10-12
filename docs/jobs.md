@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-11 |
+| Last Scraped | 2026-10-12 |
 
-## Current Job Listings (64)
+## Current Job Listings (65)
 
-_Generated: 2026-10-11T11:43:41.594Z_
+_Generated: 2026-10-12T13:44:48.500Z_
+
+### Middle Java Automation QA Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000155017858](https://jobs.smartrecruiters.com/Endava/744000155017858)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, quality assurance
+- **Status:** scraped
+
+### Senior Developer (Python)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000154944855](https://jobs.smartrecruiters.com/Endava/744000154944855)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Python Developer
 
@@ -30,14 +46,6 @@ _Generated: 2026-10-11T11:43:41.594Z_
 - **Work Mode:** hybrid
 - **Location:** Iași
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Social Media Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000153688839](https://jobs.smartrecruiters.com/Endava/744000153688839)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, marketing
 - **Status:** scraped
 
 ### Senior C Developer
