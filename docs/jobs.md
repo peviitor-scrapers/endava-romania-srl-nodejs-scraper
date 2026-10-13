@@ -10,19 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-12 |
+| Last Scraped | 2026-10-13 |
 
-## Current Job Listings (65)
+## Current Job Listings (61)
 
-_Generated: 2026-10-12T13:44:48.500Z_
-
-### Middle Java Automation QA Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000155017858](https://jobs.smartrecruiters.com/Endava/744000155017858)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, quality assurance
-- **Status:** scraped
+_Generated: 2026-10-13T13:04:52.637Z_
 
 ### Senior Developer (Python)
 
@@ -74,25 +66,9 @@ _Generated: 2026-10-12T13:44:48.500Z_
 
 ### Senior C Developer
 
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152664647](https://jobs.smartrecruiters.com/Endava/744000152664647)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior C Developer
-
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000152664779](https://jobs.smartrecruiters.com/Endava/744000152664779)
 - **Work Mode:** hybrid
 - **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior C Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152662590](https://jobs.smartrecruiters.com/Endava/744000152662590)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
@@ -118,14 +94,6 @@ _Generated: 2026-10-12T13:44:48.500Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, customer service
-- **Status:** scraped
-
-### Senior C Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152362069](https://jobs.smartrecruiters.com/Endava/744000152362069)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
 - **Status:** scraped
 
 ### Senior Python Developer
