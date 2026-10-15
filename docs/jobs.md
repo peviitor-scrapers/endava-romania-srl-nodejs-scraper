@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-14 |
+| Last Scraped | 2026-10-15 |
 
-## Current Job Listings (64)
+## Current Job Listings (65)
 
-_Generated: 2026-10-14T10:46:08.288Z_
+_Generated: 2026-10-15T10:29:02.242Z_
+
+### Total Rewards Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000155693009](https://jobs.smartrecruiters.com/Endava/744000155693009)
+- **Work Mode:** on-site
+- **Location:** Cluj-Napoca
+- **Tags:** business support, human resources
+- **Status:** scraped
 
 ### Senior C Developer
 
