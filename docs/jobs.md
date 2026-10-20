@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-19 |
+| Last Scraped | 2026-10-20 |
 
 ## Current Job Listings (64)
 
-_Generated: 2026-10-19T11:26:15.316Z_
+_Generated: 2026-10-20T10:32:50.841Z_
+
+### Regional Microsoft Partner Manager
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000156356594](https://jobs.smartrecruiters.com/Endava/744000156356594)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, sales
+- **Status:** scraped
 
 ### Total Rewards Specialist
 
@@ -227,14 +235,6 @@ _Generated: 2026-10-19T11:26:15.316Z_
 ### Senior Data Engineer (Microsoft Fabric)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000150364169](https://jobs.smartrecruiters.com/Endava/744000150364169)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior MS Dynamics Developer (Microsoft Power Platform)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145458999](https://jobs.smartrecruiters.com/Endava/744000145458999)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
