@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-21 |
+| Last Scraped | 2026-10-22 |
 
 ## Current Job Listings (65)
 
-_Generated: 2026-10-21T10:45:09.739Z_
+_Generated: 2026-10-22T10:46:32.755Z_
+
+### Commercial Legal Counsel
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157048839](https://jobs.smartrecruiters.com/Endava/744000157048839)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, legal
+- **Status:** scraped
 
 ### Senior Product Architect
 
@@ -94,14 +102,6 @@ _Generated: 2026-10-21T10:45:09.739Z_
 - **Work Mode:** hybrid
 - **Location:** Sibiu
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Commercial Lawyer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000153225309](https://jobs.smartrecruiters.com/Endava/744000153225309)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, legal
 - **Status:** scraped
 
 ### Senior Developer (Python)
