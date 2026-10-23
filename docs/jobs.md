@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-22 |
+| Last Scraped | 2026-10-23 |
 
-## Current Job Listings (65)
+## Current Job Listings (67)
 
-_Generated: 2026-10-22T10:46:32.755Z_
+_Generated: 2026-10-23T10:37:59.131Z_
+
+### Senior Data Engineer with Python and Databricks
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157148890](https://jobs.smartrecruiters.com/Endava/744000157148890)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Field Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157149338](https://jobs.smartrecruiters.com/Endava/744000157149338)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
 
 ### Commercial Legal Counsel
 
