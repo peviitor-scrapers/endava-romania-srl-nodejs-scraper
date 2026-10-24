@@ -10,11 +10,35 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-23 |
+| Last Scraped | 2026-10-24 |
 
-## Current Job Listings (67)
+## Current Job Listings (70)
 
-_Generated: 2026-10-23T10:37:59.131Z_
+_Generated: 2026-10-24T09:56:08.243Z_
+
+### Global Head of Design
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157446709](https://jobs.smartrecruiters.com/Endava/744000157446709)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** business support, marketing
+- **Status:** scraped
+
+### Senior Data Engineer with Python and Databricks
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157440854](https://jobs.smartrecruiters.com/Endava/744000157440854)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer with Python and Databricks
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157443104](https://jobs.smartrecruiters.com/Endava/744000157443104)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Data Engineer with Python and Databricks
 
