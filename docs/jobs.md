@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-28 |
+| Last Scraped | 2026-10-29 |
 
 ## Current Job Listings (81)
 
-_Generated: 2026-10-28T11:46:03.510Z_
+_Generated: 2026-10-29T11:53:50.640Z_
+
+### Senior Business Analyst (Payments/Insurance)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158455652](https://jobs.smartrecruiters.com/Endava/744000158455652)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, analyst
+- **Status:** scraped
+
+### Senior Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158355209](https://jobs.smartrecruiters.com/Endava/744000158355209)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
 
 ### Senior Commercial Legal Counsel (IT&C)
 
@@ -142,14 +158,6 @@ _Generated: 2026-10-28T11:46:03.510Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Field Marketing Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157149338](https://jobs.smartrecruiters.com/Endava/744000157149338)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Senior Product Architect
@@ -294,14 +302,6 @@ _Generated: 2026-10-28T11:46:03.510Z_
 - **Work Mode:** hybrid
 - **Location:** Craiova
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Business Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150683379](https://jobs.smartrecruiters.com/Endava/744000150683379)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, analyst
 - **Status:** scraped
 
 ### DevOps Architect with Google Cloud Platform (GCP)
