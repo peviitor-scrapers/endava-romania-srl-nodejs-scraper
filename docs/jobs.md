@@ -10,11 +10,67 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-10-30 |
+| Last Scraped | 2026-10-31 |
 
 ## Current Job Listings (88)
 
-_Generated: 2026-10-30T11:47:34.607Z_
+_Generated: 2026-10-31T11:20:55.172Z_
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158763600](https://jobs.smartrecruiters.com/Endava/744000158763600)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158759510](https://jobs.smartrecruiters.com/Endava/744000158759510)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158763289](https://jobs.smartrecruiters.com/Endava/744000158763289)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158763069](https://jobs.smartrecruiters.com/Endava/744000158763069)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158762809](https://jobs.smartrecruiters.com/Endava/744000158762809)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### DevOps Lead with Telco experience
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158762490](https://jobs.smartrecruiters.com/Endava/744000158762490)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior B2B Marketing Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158754633](https://jobs.smartrecruiters.com/Endava/744000158754633)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** business support, engineering
+- **Status:** scraped
 
 ### Senior Data Analyst
 
@@ -24,68 +80,12 @@ _Generated: 2026-10-30T11:47:34.607Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158503089](https://jobs.smartrecruiters.com/Endava/744000158503089)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158500934](https://jobs.smartrecruiters.com/Endava/744000158500934)
-- **Work Mode:** hybrid
-- **Location:** Brașov
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158502749](https://jobs.smartrecruiters.com/Endava/744000158502749)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158502569](https://jobs.smartrecruiters.com/Endava/744000158502569)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158500094](https://jobs.smartrecruiters.com/Endava/744000158500094)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Lead with Telco experience
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158502339](https://jobs.smartrecruiters.com/Endava/744000158502339)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Senior Business Analyst (Payments/Insurance)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000158455652](https://jobs.smartrecruiters.com/Endava/744000158455652)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, analyst
-- **Status:** scraped
-
-### Senior Marketing Specialist
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158355209](https://jobs.smartrecruiters.com/Endava/744000158355209)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** business support, engineering
 - **Status:** scraped
 
 ### Senior Commercial Legal Counsel (IT&C)
