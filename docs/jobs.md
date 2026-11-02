@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-01 |
+| Last Scraped | 2026-11-02 |
 
 ## Current Job Listings (88)
 
-_Generated: 2026-11-01T12:12:29.166Z_
+_Generated: 2026-11-02T14:01:15.971Z_
 
 ### DevOps Lead with Telco experience
 
