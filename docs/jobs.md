@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-05 |
+| Last Scraped | 2026-11-06 |
 
-## Current Job Listings (97)
+## Current Job Listings (96)
 
-_Generated: 2026-11-05T13:38:53.968Z_
+_Generated: 2026-11-06T13:22:24.667Z_
 
 ### Senior Data Analyst
 
@@ -429,14 +429,6 @@ _Generated: 2026-11-05T13:38:53.968Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000152630335](https://jobs.smartrecruiters.com/Endava/744000152630335)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Go Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152619509](https://jobs.smartrecruiters.com/Endava/744000152619509)
-- **Work Mode:** hybrid
-- **Location:** Iași
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
