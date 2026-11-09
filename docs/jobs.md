@@ -10,11 +10,67 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-08 |
+| Last Scraped | 2026-11-09 |
 
-## Current Job Listings (96)
+## Current Job Listings (102)
 
-_Generated: 2026-11-08T12:21:18.165Z_
+_Generated: 2026-11-09T14:34:11.858Z_
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160601919](https://jobs.smartrecruiters.com/Endava/744000160601919)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160601559](https://jobs.smartrecruiters.com/Endava/744000160601559)
+- **Work Mode:** hybrid
+- **Location:** Sibiu
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160601300](https://jobs.smartrecruiters.com/Endava/744000160601300)
+- **Work Mode:** hybrid
+- **Location:** Brașov
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160598994](https://jobs.smartrecruiters.com/Endava/744000160598994)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160600049](https://jobs.smartrecruiters.com/Endava/744000160600049)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160599309](https://jobs.smartrecruiters.com/Endava/744000160599309)
+- **Work Mode:** hybrid
+- **Location:** Iași
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Data Engineer (Snowflake & AWS)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000160598479](https://jobs.smartrecruiters.com/Endava/744000160598479)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Senior Data Analyst
 
@@ -430,14 +486,6 @@ _Generated: 2026-11-08T12:21:18.165Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Network Security Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000152613189](https://jobs.smartrecruiters.com/Endava/744000152613189)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, customer service
 - **Status:** scraped
 
 ### Senior Python Developer
