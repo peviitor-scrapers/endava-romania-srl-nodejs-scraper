@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-12 |
+| Last Scraped | 2026-11-13 |
 
-## Current Job Listings (102)
+## Current Job Listings (96)
 
-_Generated: 2026-11-12T14:08:26.520Z_
+_Generated: 2026-11-13T13:33:08.234Z_
 
 ### Senior Data Analyst
 
@@ -264,14 +264,6 @@ _Generated: 2026-11-12T14:08:26.520Z_
 - **Tags:** client delivery, analyst
 - **Status:** scraped
 
-### Senior Commercial Legal Counsel (IT&C)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000158002349](https://jobs.smartrecruiters.com/Endava/744000158002349)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** business support, legal
-- **Status:** scraped
-
 ### Senior Data Engineer (Real-Time Data Processing & Streaming)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000157754549](https://jobs.smartrecruiters.com/Endava/744000157754549)
@@ -350,14 +342,6 @@ _Generated: 2026-11-12T14:08:26.520Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Commercial Legal Counsel
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157745049](https://jobs.smartrecruiters.com/Endava/744000157745049)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** business support, legal
 - **Status:** scraped
 
 ### Global Head of Design
@@ -512,46 +496,6 @@ _Generated: 2026-11-12T14:08:26.520Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### DevOps Architect with Google Cloud Platform (GCP)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150652123](https://jobs.smartrecruiters.com/Endava/744000150652123)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Consultant with Google Cloud Platform (GCP)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150655589](https://jobs.smartrecruiters.com/Endava/744000150655589)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior DevOps Consultant with Google Cloud Platform (GCP)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150655489](https://jobs.smartrecruiters.com/Endava/744000150655489)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Engineer with Google Cloud Platform (GCP)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150655099](https://jobs.smartrecruiters.com/Endava/744000150655099)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### DevOps Engineer with Google Cloud Platform (GCP)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000150652861](https://jobs.smartrecruiters.com/Endava/744000150652861)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Senior Data Engineer (Microsoft Fabric)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000150359745](https://jobs.smartrecruiters.com/Endava/744000150359745)
@@ -579,6 +523,14 @@ _Generated: 2026-11-12T14:08:26.520Z_
 ### Senior Data Engineer (Microsoft Fabric)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000150364169](https://jobs.smartrecruiters.com/Endava/744000150364169)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior MS Dynamics Developer (Microsoft Power Platform)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000145458999](https://jobs.smartrecruiters.com/Endava/744000145458999)
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
