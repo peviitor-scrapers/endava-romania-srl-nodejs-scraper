@@ -14,7 +14,7 @@
 
 ## Current Job Listings (96)
 
-_Generated: 2026-11-14T12:38:22.655Z_
+_Generated: 2026-11-14T15:05:22.773Z_
 
 ### Senior Data Analyst
 
