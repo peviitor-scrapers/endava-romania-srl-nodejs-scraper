@@ -10,11 +10,35 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-16 |
+| Last Scraped | 2026-11-17 |
 
-## Current Job Listings (90)
+## Current Job Listings (93)
 
-_Generated: 2026-11-16T14:10:44.885Z_
+_Generated: 2026-11-17T15:03:10.901Z_
+
+### Network Security Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000162039969](https://jobs.smartrecruiters.com/Endava/744000162039969)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
+
+### Transfer Pricing Tax Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161833219](https://jobs.smartrecruiters.com/Endava/744000161833219)
+- **Work Mode:** hybrid
+- **Location:** Timișoara
+- **Tags:** business support, finance
+- **Status:** scraped
+
+### Transfer Pricing Tax Specialist
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161828572](https://jobs.smartrecruiters.com/Endava/744000161828572)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** business support, finance
+- **Status:** scraped
 
 ### Senior Data Analyst
 
