@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-19 |
+| Last Scraped | 2026-11-20 |
 
-## Current Job Listings (86)
+## Current Job Listings (82)
 
-_Generated: 2026-11-19T14:49:56.565Z_
+_Generated: 2026-11-20T14:31:22.756Z_
 
 ### Global Head of Design
 
@@ -328,30 +328,6 @@ _Generated: 2026-11-19T14:49:56.565Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior Data Engineer with Python and Databricks
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157440854](https://jobs.smartrecruiters.com/Endava/744000157440854)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer with Python and Databricks
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157443104](https://jobs.smartrecruiters.com/Endava/744000157443104)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer with Python and Databricks
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157148890](https://jobs.smartrecruiters.com/Endava/744000157148890)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Regional Microsoft Partner Manager
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000156356594](https://jobs.smartrecruiters.com/Endava/744000156356594)
@@ -541,14 +517,6 @@ _Generated: 2026-11-19T14:49:56.565Z_
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000133586039](https://jobs.smartrecruiters.com/Endava/744000133586039)
 - **Work Mode:** on-site
 - **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer with Python and Databricks
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000133531102](https://jobs.smartrecruiters.com/Endava/744000133531102)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
