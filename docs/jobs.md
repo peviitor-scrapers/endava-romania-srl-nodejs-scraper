@@ -10,11 +10,11 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-22 |
+| Last Scraped | 2026-11-23 |
 
-## Current Job Listings (82)
+## Current Job Listings (72)
 
-_Generated: 2026-11-22T13:42:46.941Z_
+_Generated: 2026-11-23T16:42:56.309Z_
 
 ### Global Head of Design
 
@@ -246,86 +246,6 @@ _Generated: 2026-11-22T13:42:46.941Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, analyst
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157754549](https://jobs.smartrecruiters.com/Endava/744000157754549)
-- **Work Mode:** hybrid
-- **Location:** Craiova
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157753970](https://jobs.smartrecruiters.com/Endava/744000157753970)
-- **Work Mode:** hybrid
-- **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157750314](https://jobs.smartrecruiters.com/Endava/744000157750314)
-- **Work Mode:** hybrid
-- **Location:** Brașov
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157751866](https://jobs.smartrecruiters.com/Endava/744000157751866)
-- **Work Mode:** hybrid
-- **Location:** Suceava
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157753109](https://jobs.smartrecruiters.com/Endava/744000157753109)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157752879](https://jobs.smartrecruiters.com/Endava/744000157752879)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157751810](https://jobs.smartrecruiters.com/Endava/744000157751810)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157752148](https://jobs.smartrecruiters.com/Endava/744000157752148)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157751769](https://jobs.smartrecruiters.com/Endava/744000157751769)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Engineer (Real-Time Data Processing & Streaming)
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000157748474](https://jobs.smartrecruiters.com/Endava/744000157748474)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
 - **Status:** scraped
 
 ### Regional Microsoft Partner Manager
