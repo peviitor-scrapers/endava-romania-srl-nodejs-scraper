@@ -10,11 +10,27 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-23 |
+| Last Scraped | 2026-11-24 |
 
 ## Current Job Listings (72)
 
-_Generated: 2026-11-23T16:42:56.309Z_
+_Generated: 2026-11-24T16:38:45.022Z_
+
+### Senior Java Developer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163477687](https://jobs.smartrecruiters.com/Endava/744000163477687)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Microsoft 365 Platform Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163416109](https://jobs.smartrecruiters.com/Endava/744000163416109)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
 
 ### Global Head of Design
 
@@ -272,14 +288,6 @@ _Generated: 2026-11-23T16:42:56.309Z_
 - **Tags:** client delivery, engineering
 - **Status:** scraped
 
-### Senior C Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000153412925](https://jobs.smartrecruiters.com/Endava/744000153412925)
-- **Work Mode:** hybrid
-- **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
 ### Senior Developer (Python)
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000152665139](https://jobs.smartrecruiters.com/Endava/744000152665139)
@@ -299,14 +307,6 @@ _Generated: 2026-11-23T16:42:56.309Z_
 ### Senior Python Developer
 
 - **URL:** [https://jobs.smartrecruiters.com/Endava/744000151776240](https://jobs.smartrecruiters.com/Endava/744000151776240)
-- **Work Mode:** hybrid
-- **Location:** Craiova
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior C Developer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000151773719](https://jobs.smartrecruiters.com/Endava/744000151773719)
 - **Work Mode:** hybrid
 - **Location:** Craiova
 - **Tags:** client delivery, engineering
