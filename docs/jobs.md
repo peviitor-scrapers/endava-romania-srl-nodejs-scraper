@@ -10,11 +10,35 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-24 |
+| Last Scraped | 2026-11-25 |
 
-## Current Job Listings (72)
+## Current Job Listings (74)
 
-_Generated: 2026-11-24T16:38:45.022Z_
+_Generated: 2026-11-25T16:21:20.318Z_
+
+### Java Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163629310](https://jobs.smartrecruiters.com/Endava/744000163629310)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Java Development Consultant
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163629279](https://jobs.smartrecruiters.com/Endava/744000163629279)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** client delivery, engineering
+- **Status:** scraped
+
+### Senior Microsoft 365 Platform Engineer
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163620109](https://jobs.smartrecruiters.com/Endava/744000163620109)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** client delivery, customer service
+- **Status:** scraped
 
 ### Senior Java Developer
 
@@ -22,14 +46,6 @@ _Generated: 2026-11-24T16:38:45.022Z_
 - **Work Mode:** hybrid
 - **Location:** Bucharest
 - **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Microsoft 365 Platform Engineer
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163416109](https://jobs.smartrecruiters.com/Endava/744000163416109)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, customer service
 - **Status:** scraped
 
 ### Global Head of Design
