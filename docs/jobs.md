@@ -10,11 +10,19 @@
 | Location | JUD. CLUJ, MUN. CLUJ-NAPOCA, STR. ALEXANDRU VAIDA VOEVOD, NR.51, ET.9 |
 | Website | [https://www.endava.com](https://www.endava.com) |
 | Careers | [https://www.endava.com/careers/jobs](https://www.endava.com/careers/jobs) |
-| Last Scraped | 2026-11-26 |
+| Last Scraped | 2026-11-27 |
 
-## Current Job Listings (74)
+## Current Job Listings (68)
 
-_Generated: 2026-11-26T15:55:55.418Z_
+_Generated: 2026-11-27T15:44:35.855Z_
+
+### Mendix Developer (mid-senior)
+
+- **URL:** [https://jobs.smartrecruiters.com/Endava/744000163995379](https://jobs.smartrecruiters.com/Endava/744000163995379)
+- **Work Mode:** hybrid
+- **Location:** Cluj-Napoca
+- **Tags:** client delivery, engineering
+- **Status:** scraped
 
 ### Java Development Consultant
 
@@ -78,62 +86,6 @@ _Generated: 2026-11-26T15:55:55.418Z_
 - **Work Mode:** hybrid
 - **Location:** Cluj-Napoca
 - **Tags:** business support, finance
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161036619](https://jobs.smartrecruiters.com/Endava/744000161036619)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161036509](https://jobs.smartrecruiters.com/Endava/744000161036509)
-- **Work Mode:** hybrid
-- **Location:** România
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161035969](https://jobs.smartrecruiters.com/Endava/744000161035969)
-- **Work Mode:** hybrid
-- **Location:** Sibiu
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161035679](https://jobs.smartrecruiters.com/Endava/744000161035679)
-- **Work Mode:** hybrid
-- **Location:** Timișoara
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161034530](https://jobs.smartrecruiters.com/Endava/744000161034530)
-- **Work Mode:** hybrid
-- **Location:** Iași
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161033779](https://jobs.smartrecruiters.com/Endava/744000161033779)
-- **Work Mode:** hybrid
-- **Location:** Cluj-Napoca
-- **Tags:** client delivery, engineering
-- **Status:** scraped
-
-### Senior Data Analyst
-
-- **URL:** [https://jobs.smartrecruiters.com/Endava/744000161032742](https://jobs.smartrecruiters.com/Endava/744000161032742)
-- **Work Mode:** hybrid
-- **Location:** Bucharest
-- **Tags:** client delivery, engineering
 - **Status:** scraped
 
 ### Senior Data Engineer (Snowflake & AWS)
